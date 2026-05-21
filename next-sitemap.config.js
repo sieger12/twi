@@ -30,6 +30,7 @@ module.exports = {
       changefreq = "daily";
     } else if (
       path.includes("twitter-to-mp3") ||
+      path.includes("twitter-to-mp4") ||
       path.includes("twitter-image-downloader") ||
       path.includes("twitter-gif-downloader")
     ) {

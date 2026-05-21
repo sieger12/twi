@@ -7,7 +7,7 @@ interface HeroProps {
   eyebrow: string;
   title: string;
   subtitle: string;
-  format?: "video" | "mp3" | "image" | "gif";
+  format?: "video" | "mp3" | "mp4" | "image" | "gif";
   badge?: ReactNode;
 }
 

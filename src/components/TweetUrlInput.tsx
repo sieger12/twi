@@ -4,7 +4,7 @@ import { Clipboard, ArrowRight, Loader2, AlertCircle } from "lucide-react";
 import { MediaResult } from "./MediaResult";
 import type { ExtractResult, ExtractSuccess } from "@/lib/extract";
 
-type Format = "video" | "mp3" | "image" | "gif";
+type Format = "video" | "mp3" | "mp4" | "image" | "gif";
 
 interface TweetUrlInputProps {
   format?: Format;

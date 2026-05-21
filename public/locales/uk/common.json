@@ -3,7 +3,8 @@
     "home": "Відео",
     "mp3": "MP3",
     "image": "Фото",
-    "gif": "GIF"
+    "gif": "GIF",
+    "mp4": "MP4"
   },
   "footer": {
     "tagline": "Зберігай відео, GIF, фото та аудіо з Twitter. Без реєстрації. Без встановлення.",
@@ -18,7 +19,8 @@
     "disclaimer": "Не пов'язано з X Corp. або Twitter, Inc.",
     "save": "Save Twitter video",
     "iphone": "iPhone guide",
-    "android": "Android guide"
+    "android": "Android guide",
+    "mp4": "Twitter to MP4"
   },
   "hero": {
     "bullets": {
@@ -42,7 +44,8 @@
       "video": "Завантажити",
       "mp3": "Конвертувати в MP3",
       "image": "Отримати фото",
-      "gif": "Отримати GIF"
+      "gif": "Отримати GIF",
+      "mp4": "Convert to MP4"
     }
   },
   "result": {
@@ -86,6 +89,10 @@
       "gif": {
         "title": "GIF як MP4",
         "body": "Twitter віддає GIF як MP4 — так і зберігаємо. Менше, плавніше."
+      },
+      "mp4": {
+        "title": "Convert to MP4",
+        "body": "Twitter to MP4 — clean file, ready for editors and players."
       }
     }
   },
@@ -496,7 +503,46 @@
       "gif": {
         "title": "Twitter GIF downloader",
         "body": "Save Twitter GIFs as MP4 — smaller, smoother, same loop."
+      },
+      "mp4": {
+        "title": "Twitter to MP4 converter",
+        "body": "Convert and download any Twitter video as a clean MP4 file."
       }
+    }
+  },
+  "mp4": {
+    "title": "Twitter to MP4 — Convert & Download Twitter Video as MP4",
+    "description": "Convert Twitter video to MP4. Download any tweet as MP4 file — HD quality up to 1080p, no watermark, no app needed. Free online tool.",
+    "eyebrow": "Twitter to MP4",
+    "h1": "Twitter to MP4 converter",
+    "subtitle": "Convert any Twitter video into a proper MP4 file. HD up to 1080p. Plays in QuickTime, VLC, every browser, every editor. No watermark.",
+    "introHeading": "Why MP4?",
+    "introBody": "Twitter already stores videos as <strong>MP4 (H.264)</strong> under the hood — that's the universal format every device and editor understands. What you're really doing is pulling that original MP4 out of Twitter's player. We hand you the file directly. No re-encoding, no quality loss.",
+    "introBody2": "If you specifically want the audio track only, the <a href=\"/twitter-to-mp3\">Twitter to MP3 converter</a> strips it for you. For a tweet's GIF, hit the <a href=\"/twitter-gif-downloader\">GIF downloader</a> instead — though Twitter GIFs are also delivered as MP4. Confusing? Yes. We sort it out for you.",
+    "faq": {
+      "heading": "MP4 download FAQ",
+      "items": [
+        {
+          "q": "What format does Twitter use for videos?",
+          "a": "<strong>MP4 with H.264 video and AAC audio</strong>. It's the same codec YouTube, Instagram, and every modern video site uses. Plays natively on iPhone, Android, Windows, and Mac without extra software."
+        },
+        {
+          "q": "What's the difference between this and the regular Twitter video downloader?",
+          "a": "Functionally none — both give you an MP4. This page just makes it explicit. If you searched for <strong>\"twitter to mp4\"</strong> or <strong>\"convert twitter video to mp4\"</strong>, you landed in the right place. Same engine, same output."
+        },
+        {
+          "q": "Can I convert Twitter video to MP4 on iPhone?",
+          "a": "Yes. Paste the link, tap <strong>Convert to MP4</strong>, then save the file to Files or Photos. Full iPhone steps are in the <a href=\"/how-to-download-twitter-video-iphone\">iPhone guide</a>."
+        },
+        {
+          "q": "What resolution will the MP4 be?",
+          "a": "Whatever the uploader posted. Most tweets are <strong>720p or 1080p</strong>. Some are higher (older uploads sometimes reach 1280p), some lower (live screen recordings often max at 540p). We don't downscale."
+        },
+        {
+          "q": "Will the MP4 work in video editors like Premiere or DaVinci Resolve?",
+          "a": "Yes. Standard H.264 MP4 imports cleanly into <strong>Premiere Pro, DaVinci Resolve, Final Cut Pro, CapCut, and iMovie</strong>. No conversion needed."
+        }
+      ]
     }
   }
 }

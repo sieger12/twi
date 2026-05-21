@@ -9,6 +9,7 @@ import { SITE_NAME } from "@/lib/site";
 const navItems = [
   { href: "/", key: "nav.home" },
   { href: "/twitter-to-mp3", key: "nav.mp3" },
+  { href: "/twitter-to-mp4", key: "nav.mp4" },
   { href: "/twitter-image-downloader", key: "nav.image" },
   { href: "/twitter-gif-downloader", key: "nav.gif" },
 ];

@@ -1,9 +1,9 @@
 import Link from "next/link";
 import { useTranslation } from "next-i18next/pages";
-import { ArrowUpRight, Music, Image as ImageIcon, Sparkles, Film } from "lucide-react";
+import { ArrowUpRight, Music, Image as ImageIcon, Sparkles, Film, FileVideo } from "lucide-react";
 import type { ComponentType } from "react";
 
-type ToolKey = "home" | "mp3" | "image" | "gif";
+type ToolKey = "home" | "mp3" | "mp4" | "image" | "gif";
 
 interface ToolItem {
   key: ToolKey;
@@ -13,6 +13,7 @@ interface ToolItem {
 
 const ALL_TOOLS: ToolItem[] = [
   { key: "home", href: "/", Icon: Film },
+  { key: "mp4", href: "/twitter-to-mp4", Icon: FileVideo },
   { key: "mp3", href: "/twitter-to-mp3", Icon: Music },
   { key: "image", href: "/twitter-image-downloader", Icon: ImageIcon },
   { key: "gif", href: "/twitter-gif-downloader", Icon: Sparkles },

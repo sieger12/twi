@@ -1,11 +1,13 @@
+import Link from "next/link";
 import { useTranslation } from "next-i18next/pages";
-import { Video, Music, Image as ImageIcon, Sparkles } from "lucide-react";
+import { Video, Music, Image as ImageIcon, Sparkles, FileVideo } from "lucide-react";
 
 const features = [
-  { key: "video", Icon: Video },
-  { key: "mp3", Icon: Music },
-  { key: "image", Icon: ImageIcon },
-  { key: "gif", Icon: Sparkles },
+  { key: "video", Icon: Video, href: "/" },
+  { key: "mp4", Icon: FileVideo, href: "/twitter-to-mp4" },
+  { key: "mp3", Icon: Music, href: "/twitter-to-mp3" },
+  { key: "image", Icon: ImageIcon, href: "/twitter-image-downloader" },
+  { key: "gif", Icon: Sparkles, href: "/twitter-gif-downloader" },
 ];
 
 export function FeatureGrid() {
@@ -30,10 +32,11 @@ export function FeatureGrid() {
         </div>
       </div>
 
-      <div className="grid gap-px overflow-hidden rounded-2xl bg-line sm:grid-cols-2 lg:grid-cols-4">
-        {features.map(({ key, Icon }) => (
-          <article
+      <div className="grid gap-px overflow-hidden rounded-2xl bg-line sm:grid-cols-2 lg:grid-cols-5">
+        {features.map(({ key, Icon, href }) => (
+          <Link
             key={key}
+            href={href}
             className="group flex flex-col gap-5 bg-canvas p-7 transition-colors hover:bg-surface"
           >
             <Icon
@@ -49,7 +52,7 @@ export function FeatureGrid() {
                 {t(`features.items.${key}.body`)}
               </p>
             </div>
-          </article>
+          </Link>
         ))}
       </div>
     </section>

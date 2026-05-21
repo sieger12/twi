@@ -44,6 +44,14 @@ export function SiteFooter() {
               </li>
               <li>
                 <Link
+                  href="/twitter-to-mp4"
+                  className="text-ink-muted hover:text-ink"
+                >
+                  {t("footer.mp4")}
+                </Link>
+              </li>
+              <li>
+                <Link
                   href="/twitter-image-downloader"
                   className="text-ink-muted hover:text-ink"
                 >
