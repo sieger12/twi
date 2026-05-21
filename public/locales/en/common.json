@@ -115,9 +115,9 @@
     "eyebrow": "Questions"
   },
   "home": {
-    "title": "X Video Downloader — Download Twitter Video Online Free",
-    "description": "Download Twitter (X) video, GIF, image, and MP3 online. Free, no sign-up, no app. HD quality. Works on iPhone, Android, Windows, Mac.",
-    "eyebrow": "X video downloader",
+    "title": "X Downloader — Download Twitter (X) Video Online Free",
+    "description": "Free X downloader — download Twitter video, GIF, image, MP3 online. No sign-up, no app. HD quality up to 1080p. Works on iPhone, Android, PC.",
+    "eyebrow": "X downloader",
     "h1": "Download Twitter (X) video, GIF, image online",
     "subtitle": "Paste a tweet link. Pick a format. Download in seconds. Nothing to install.",
     "faq": {
@@ -159,10 +159,10 @@
     }
   },
   "mp3": {
-    "title": "Twitter to MP3 — Convert Twitter Video to MP3 Online",
-    "description": "Free Twitter to MP3 converter. Strip the audio from any tweet that has video and save as MP3. Works on iPhone, Android, and desktop.",
+    "title": "Twitter to MP3 — X to MP3 Converter Online Free",
+    "description": "Free Twitter to MP3 and X to MP3 converter. Strip the audio from any tweet with video and save as MP3. Works on iPhone, Android, and desktop.",
     "eyebrow": "Twitter to MP3",
-    "h1": "Twitter to MP3 converter",
+    "h1": "Twitter (X) to MP3 converter",
     "subtitle": "Pull the audio out of any Twitter video. Save as MP3 — clean, taggable, ready for your podcast app or playlist.",
     "introHeading": "When you only want the audio",
     "introBody": "Sometimes the visuals don't matter — you want the speech, the music, the moment. Paste a tweet, get an <strong>MP3</strong>. It plays anywhere a phone or laptop plays audio. If you'd rather keep the picture too, head to the <a href=\"/\">Twitter video downloader</a>.",
@@ -191,7 +191,7 @@
   },
   "image": {
     "title": "Twitter Image Downloader — Download Twitter Photo in HD",
-    "description": "Free Twitter image downloader. Save any photo from X in full original resolution. No watermark. Up to four images per tweet.",
+    "description": "Free Twitter image downloader — save photos from X in full HD resolution. No watermark, no sign-up. Download up to four images per tweet.",
     "eyebrow": "Twitter image downloader",
     "h1": "Download image from Twitter (X)",
     "subtitle": "Grab any photo from a tweet — full original resolution, no watermark. Up to four images per tweet, bundled as a zip.",
