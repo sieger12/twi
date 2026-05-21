@@ -6,6 +6,7 @@ import { SeoHead } from "@/components/SeoHead";
 import { Hero } from "@/components/Hero";
 import { HowToSteps } from "@/components/HowToSteps";
 import { FeatureGrid } from "@/components/FeatureGrid";
+import { HowToGuides } from "@/components/HowToGuides";
 import { AudioFaq } from "@/components/AudioFaq";
 import { RelatedTools } from "@/components/RelatedTools";
 import {
@@ -44,6 +45,7 @@ export default function HomePage() {
         />
         <HowToSteps />
         <FeatureGrid />
+        <HowToGuides />
         <AudioFaq faqKey="home.faq" count={FAQ_COUNT} />
         <RelatedTools exclude="home" />
       </SiteShell>

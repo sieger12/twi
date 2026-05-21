@@ -52,6 +52,27 @@
     "image": "Image",
     "download": "Download"
   },
+  "howToGuides": {
+    "eyebrow": "Step-by-step guides",
+    "heading": "Walkthroughs for every device",
+    "items": {
+      "save": {
+        "tag": "Universal",
+        "title": "Save Twitter video to your device",
+        "body": "The fastest way to grab a tweet for offline viewing. Works on phone, tablet, and laptop in three taps."
+      },
+      "iphone": {
+        "tag": "iOS",
+        "title": "Download Twitter video on iPhone",
+        "body": "Save to Camera Roll or Files. No app, no shortcut, no jailbreak — pure Safari flow."
+      },
+      "android": {
+        "tag": "Android",
+        "title": "Download Twitter video on Android",
+        "body": "Samsung, Pixel, Xiaomi, OnePlus — every Android phone in one walkthrough. Files land in /Download."
+      }
+    }
+  },
   "related": {
     "eyebrow": "Keep exploring",
     "heading": "More ways to save from Twitter",
