@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://twitdownloader.com
+
+# Sitemaps
+Sitemap: https://twitdownloader.com/sitemap.xml

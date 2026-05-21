@@ -1,0 +1,502 @@
+{
+  "nav": {
+    "home": "Video",
+    "mp3": "MP3",
+    "image": "Bild",
+    "gif": "GIF"
+  },
+  "footer": {
+    "tagline": "Spara videor, GIF-filer, bilder och ljud från Twitter. Ingen registrering. Inget att installera.",
+    "tools": "Verktyg",
+    "company": "Företag",
+    "legal": "Juridik",
+    "about": "Om oss",
+    "contact": "Kontakt",
+    "terms": "Villkor",
+    "privacy": "Integritet",
+    "rights": "Alla rättigheter förbehållna.",
+    "disclaimer": "Inte ansluten till X Corp. eller Twitter, Inc.",
+    "save": "Save Twitter video",
+    "iphone": "iPhone guide",
+    "android": "Android guide"
+  },
+  "hero": {
+    "bullets": {
+      "safe": "Ingen inloggning. Inga data sparas.",
+      "fast": "Klart på sekunder.",
+      "free": "Gratis. Obegränsat."
+    }
+  },
+  "input": {
+    "placeholder": "Klistra in en tweet-länk — twitter.com eller x.com",
+    "paste": "Klistra in",
+    "pasted": "Inklistrat",
+    "example": "Exempel: https://x.com/username/status/1234567890123456789",
+    "errorEmpty": "Klistra in en tweet-länk först.",
+    "errorInvalid": "Det där ser inte ut som en tweet-URL. Försök kopiera länken igen.",
+    "errorNotFound": "Vi hittade inte den tweeten. Den kan vara raderad, privat, eller så har du kopierat fel länk.",
+    "errorNoMedia": "Inget nedladdningsbart media i den här tweeten — den är bara text, eller en citerad tweet.",
+    "errorRateLimited": "För många förfrågningar just nu. Vänta en stund och försök igen.",
+    "errorEngine": "Vår extraktor stötte på problem. Försök igen om en stund.",
+    "action": {
+      "video": "Ladda ner",
+      "mp3": "Konvertera till MP3",
+      "image": "Hämta bild",
+      "gif": "Hämta GIF"
+    }
+  },
+  "result": {
+    "image": "Bild",
+    "download": "Ladda ner"
+  },
+  "howTo": {
+    "eyebrow": "Så funkar det",
+    "heading": "Tre steg. Trettio sekunder.",
+    "steps": [
+      {
+        "title": "Kopiera tweet-länken",
+        "body": "Tryck på Dela i tweeten och välj \"Kopiera länk\". Funkar på iOS, Android och webbläsare på datorn."
+      },
+      {
+        "title": "Klistra in den här",
+        "body": "Släpp länken i rutan ovan. Vi hämtar den direkt — ingen registrering, ingen app."
+      },
+      {
+        "title": "Ladda ner",
+        "body": "Välj format — MP4, MP3, GIF eller originalbild. Filen hamnar där din webbläsare brukar spara saker."
+      }
+    ]
+  },
+  "features": {
+    "eyebrow": "Vad vi sparar",
+    "heading": "Fyra format. Ett verktyg.",
+    "items": {
+      "video": {
+        "title": "Video MP4",
+        "body": "HD-video upp till 1080p. Ljudet ingår, ingen omkodning."
+      },
+      "mp3": {
+        "title": "Ljud MP3",
+        "body": "Plocka ut ljudet från vilken tweet som helst med video. Redo för taggar."
+      },
+      "image": {
+        "title": "Foto HD",
+        "body": "Full originalupplösning. Ingen vattenstämpel. Upp till fyra per tweet."
+      },
+      "gif": {
+        "title": "GIF som MP4",
+        "body": "Twitter levererar GIF-filer som MP4 — vi sparar dem på samma sätt. Mindre, mjukare."
+      }
+    }
+  },
+  "faq": {
+    "eyebrow": "Frågor"
+  },
+  "home": {
+    "title": "X Video Downloader — Ladda ner video från Twitter online gratis",
+    "description": "Ladda ner video, GIF, bild och MP3 från Twitter (X) online. Gratis, ingen registrering, ingen app. HD-kvalitet. Funkar på iPhone, Android, Windows, Mac.",
+    "eyebrow": "X video downloader",
+    "h1": "Ladda ner video, GIF och bild från Twitter (X) online",
+    "subtitle": "Klistra in en tweet-länk. Välj format. Ladda ner på några sekunder. Inget att installera.",
+    "faq": {
+      "heading": "Vanliga frågor",
+      "items": [
+        {
+          "q": "Hur laddar jag ner en Twitter-video?",
+          "a": "Öppna tweeten, tryck på Dela och sedan Kopiera länk. Klistra in den här och tryck på Ladda ner. Du får en MP4 — samma kvalitet som Twitter levererade. Det är hela flödet."
+        },
+        {
+          "q": "Hur laddar jag ner en Twitter-video på iPhone?",
+          "a": "Kopiera tweet-länken i Safari eller X-appen. Klistra in den här. Tryck på Ladda ner. Håll fingret på filen och välj \"Spara i Files\", eller använd delningsmenyn för att skicka den till Photos."
+        },
+        {
+          "q": "Hur laddar jag ner en Twitter-video på Android?",
+          "a": "Kopiera länken från X-appen. Klistra in den här. Tryck på Ladda ner. De flesta webbläsare lägger MP4:n i /Download — öppna den från Files eller galleriet."
+        },
+        {
+          "q": "Hur sparar jag en Twitter-video till kamerarullen?",
+          "a": "På iOS: ladda ner MP4:n, öppna den, tryck på dela, välj Spara video. På Android: filer hamnar i /Download som standard — håll fingret på och flytta till galleriet om det behövs."
+        },
+        {
+          "q": "Är den här Twitter-nedladdaren säker?",
+          "a": "Ja. Vi frågar inte efter din inloggning. Vi sparar inte det du laddar ner. Vi spårar inte vem som laddade ner vad. Det är en länkparser plus en hämtare — inget mer."
+        },
+        {
+          "q": "Kan jag få videon i HD?",
+          "a": "Om den som postade gjorde det i HD får du HD — upp till 1080p, ibland högre. Ingen omkodning, ingen försämring."
+        },
+        {
+          "q": "Vart tar de nedladdade filerna vägen?",
+          "a": "Dit din webbläsare brukar spara saker. iPhone Safari → Files → Nedladdningar. Chrome på Android → /Download. Dator → din mapp Nedladdningar."
+        },
+        {
+          "q": "Måste jag betala eller registrera mig?",
+          "a": "Nej. Inget konto, ingen e-post, inget kort. Obegränsade nedladdningar. Annonserna håller det gratis."
+        }
+      ]
+    }
+  },
+  "mp3": {
+    "title": "Twitter till MP3 — Konvertera Twitter-video till MP3 online",
+    "description": "Gratis Twitter till MP3-konverterare. Plocka ut ljudet från vilken tweet som helst med video och spara som MP3. Funkar på iPhone, Android och dator.",
+    "eyebrow": "Twitter till MP3",
+    "h1": "Twitter till MP3-konverterare",
+    "subtitle": "Dra ut ljudet från vilken Twitter-video som helst. Spara som MP3 — rent, taggbart, redo för din podd-app eller spellista.",
+    "introHeading": "När du bara vill ha ljudet",
+    "introBody": "Ibland spelar bilden ingen roll — du vill ha talet, musiken, ögonblicket. Klistra in en tweet, få en MP3. Den spelas där en telefon eller laptop spelar ljud.",
+    "introBody2": "Vi extraherar ljudspåret direkt. Ingen omkodning i högre bitrate än källan — det du får motsvarar det Twitter levererade.",
+    "faq": {
+      "heading": "Vanliga frågor om MP3-konvertering",
+      "items": [
+        {
+          "q": "Hur konverterar jag en Twitter-video till MP3?",
+          "a": "Kopiera tweet-länken. Klistra in den här. Tryck på Konvertera till MP3. Du får en ljudfil — vanligtvis 128 till 320 kbps, beroende på vad originalvideon innehöll."
+        },
+        {
+          "q": "Matchar MP3-kvaliteten originalet?",
+          "a": "Den matchar det ljud Twitter levererade. Vi extraherar — vi uppskalar inte. Var källan 192 kbps är det det du får."
+        },
+        {
+          "q": "Kan jag konvertera en tweet utan video?",
+          "a": "Twitter lagrar inte rena ljudfiler. Så om tweeten bara har text eller bilder finns det inget ljud att plocka ut. Tweeten behöver en video för att det ska fungera."
+        },
+        {
+          "q": "Fungerar det här på iPhone?",
+          "a": "Ja. Klistra in länken, tryck på Konvertera, spara sedan MP3:n i Files eller dela den till en musikapp som VLC eller Documents."
+        }
+      ]
+    }
+  },
+  "image": {
+    "title": "Twitter Image Downloader — Ladda ner Twitter-foto i HD",
+    "description": "Gratis Twitter image downloader. Spara vilket foto som helst från X i full originalupplösning. Ingen vattenstämpel. Upp till fyra bilder per tweet.",
+    "eyebrow": "Twitter image downloader",
+    "h1": "Ladda ner bild från Twitter (X)",
+    "subtitle": "Snappa upp vilket foto som helst från en tweet — full originalupplösning, ingen vattenstämpel. Upp till fyra bilder per tweet, paketerade som en zip.",
+    "introHeading": "Full storlek, precis som det laddades upp",
+    "introBody": "Twitters app och webbplats renderar om bilder för att passa din skärm — de är mindre än det som faktiskt postades. Genom oss får du originalfilen. Samma dimensioner, samma komprimering, samma EXIF som den som laddade upp skickade.",
+    "introBody2": "Vi vattenstämplar inte, nedskalar inte, tar inte bort metadata. Filen du sparar är den fil Twitter tog emot.",
+    "faq": {
+      "heading": "Vanliga frågor om bildnedladdning",
+      "items": [
+        {
+          "q": "Hur sparar jag en Twitter-bild i full storlek?",
+          "a": "Klistra in tweet-länken ovan. Vi hämtar varje foto i sin originalupplösning — exakt det som postades, ingen komprimering tillagd av oss."
+        },
+        {
+          "q": "Kan jag ladda ner alla fyra bilderna samtidigt?",
+          "a": "Ja. Om tweeten har flera foton får du dem i en zip. Eller välj en i taget från förhandsvisningen."
+        },
+        {
+          "q": "Kommer filen att ha en vattenstämpel?",
+          "a": "Nej. Inget stämplat på bilden. Det du sparar är råfilen."
+        },
+        {
+          "q": "Fungerar det för privata eller raderade tweets?",
+          "a": "Bara publika, aktiva tweets. Är kontot låst eller tweeten raderad finns det inget att hämta."
+        }
+      ]
+    }
+  },
+  "legal": {
+    "about": {
+      "title": "Om oss — TwitDownloader",
+      "description": "Om TwitDownloader: ett gratis verktyg utan registrering för att spara videor, GIF-filer, bilder och ljud från Twitter (X).",
+      "h1": "Om TwitDownloader",
+      "lead": "Vi byggde det här för att varje existerande Twitter-nedladdare kändes som den var gjord 2010. Långsam, full av annonser, packad med nedladdningsknappar som faktiskt inte laddar ner.",
+      "sections": [
+        {
+          "heading": "Vad vi gör",
+          "body": "Klistra in en tweet-länk. Få tillbaka filen — MP4, MP3, foto eller GIF. Det är allt. Inget konto, ingen app, inget kort."
+        },
+        {
+          "heading": "Vad vi inte gör",
+          "body": "Vi lagrar inte innehållet. Vi sparar inga loggar över vad du laddar ner. Vi säljer inte dina data. Vi ber dig inte registrera dig för att \"låsa upp HD\"."
+        },
+        {
+          "heading": "Hur det förblir gratis",
+          "body": "Annonser. Några diskreta annonsplatser på sidan. Det betalar servrarna. Det är hela affärsmodellen."
+        }
+      ]
+    },
+    "contact": {
+      "title": "Kontakt — TwitDownloader",
+      "description": "Kom i kontakt med TwitDownloader-teamet. Buggrapporter, funktionsförslag och upphovsrättsfrågor.",
+      "h1": "Kontakt",
+      "lead": "Om något är trasigt, eller om du sett en tweet vi inte borde spara, eller om du bara vill säga hej — skriv till oss.",
+      "emailLabel": "E-post",
+      "email": "hello@twitdownloader.com",
+      "copyrightHeading": "Borttagning vid upphovsrätt",
+      "copyrightBody": "Om en nedladdning bryter mot dina rättigheter, mejla oss med tweet-URL:en och bevis på ägarskap. Vi tar bort den cachade filen inom 24 timmar — oftast snabbare."
+    },
+    "terms": {
+      "title": "Användarvillkor — TwitDownloader",
+      "description": "Användarvillkor för TwitDownloader. Läs dessa villkor innan du använder tjänsten.",
+      "h1": "Användarvillkor",
+      "lead": "Genom att använda TwitDownloader godkänner du följande. Vanlig svenska nedan.",
+      "sections": [
+        {
+          "heading": "1. Vad vi erbjuder",
+          "body": "Ett verktyg för att hämta offentligt postat media från Twitter (X) för personligt bruk. Vi lagrar inte media själva — vi hämtar det Twitter levererar, på begäran."
+        },
+        {
+          "heading": "2. Ditt ansvar",
+          "body": "Du ansvarar för vad du gör med nedladdade filer. Respektera upphovsrätt. Återpublicera inte utan tillstånd. Sprid inte privat innehåll."
+        },
+        {
+          "heading": "3. Inte ansluten till X",
+          "body": "TwitDownloader är inte ansluten till, godkänd av eller sponsrad av X Corp. eller Twitter, Inc. Namnen \"Twitter\" och \"X\" är varumärken som tillhör sina respektive ägare."
+        },
+        {
+          "heading": "4. Ingen garanti",
+          "body": "Tjänsten tillhandahålls i befintligt skick. Vi försöker hålla den uppe, men vi lovar inte drifttid eller korrekthet. Förlita dig inte på den för något verksamhetskritiskt."
+        },
+        {
+          "heading": "5. Ändringar",
+          "body": "Vi kan uppdatera dessa villkor. Fortsatt användning efter en ändring innebär att du accepterar den. Väsentliga uppdateringar noteras högst upp."
+        }
+      ]
+    },
+    "privacy": {
+      "title": "Integritetspolicy — TwitDownloader",
+      "description": "TwitDownloaders integritetspolicy. Vi ber inte om personuppgifter. Vi lagrar inte dina nedladdningar. Här är vad vi samlar in.",
+      "h1": "Integritetspolicy",
+      "lead": "Kortversionen: vi frågar inte efter ditt namn, din e-post eller din inloggning. Vi lagrar inte de videor du laddar ner. Längre version nedan.",
+      "sections": [
+        {
+          "heading": "Vad vi samlar in",
+          "body": "Vanliga serverloggar (IP-adress, webbläsartyp, referrer) för säkerhet och förebyggande av missbruk. De roteras regelbundet. Vi loggar inte vilka tweets du laddar ner eller försöker ladda ner."
+        },
+        {
+          "heading": "Cookies",
+          "body": "Vi använder cookies för: språkinställning, temainställning och annonspersonalisering (via Google AdSense). Du kan stänga av cookies i din webbläsare utan att sidan slutar fungera."
+        },
+        {
+          "heading": "Google AdSense",
+          "body": "Vi använder Google AdSense för att visa annonser. Google kan använda cookies för att personalisera annonser baserat på dina besök på vår sida och andra sidor. Avregistrera på https://www.google.com/settings/ads."
+        },
+        {
+          "heading": "Analys",
+          "body": "Vi använder integritetsvänlig analys för att räkna sidvisningar. Ingen enskild användare identifieras. Inga data säljs."
+        },
+        {
+          "heading": "Dina rättigheter",
+          "body": "Är du i EU, Storbritannien eller Kalifornien har du rätt att få tillgång till, rätta eller radera personuppgifter vi har om dig. Eftersom vi inte ber om personuppgifter finns det oftast inget att komma åt — men har du frågor, mejla oss."
+        },
+        {
+          "heading": "Barn",
+          "body": "Vi samlar inte medvetet in data från någon under 13 år. Tror du att ett barn har gett oss data, kontakta oss så raderar vi den."
+        },
+        {
+          "heading": "Ändringar",
+          "body": "Uppdaterar vi denna policy ändras datumet nedan. Väsentliga ändringar noteras."
+        }
+      ],
+      "updated": "Senast uppdaterad: 2026-05-21"
+    }
+  },
+  "gif": {
+    "title": "Twitter GIF Downloader — Spara GIF från Twitter som MP4",
+    "description": "Gratis Twitter GIF downloader. Spara vilken GIF som helst från X. Twitter levererar GIF-filer som tyst MP4 — det är det du får, i mindre och mjukare filer.",
+    "eyebrow": "Twitter GIF downloader",
+    "h1": "Ladda ner GIF från Twitter (X)",
+    "subtitle": "Spara vilken GIF som helst från Twitter. Obs: Twitter har lagrat GIF-filer som tyst MP4 sedan 2014 — det är det du kommer att få. Liten fil, mjuk uppspelning.",
+    "introHeading": "Om Twitters \"GIF-filer\"",
+    "introBody": "När någon trycker på \"Lägg till GIF\" på Twitter konverterar plattformen animationen till en tyst MP4 i bakgrunden. Så när vi sparar en Twitter-GIF får du en MP4 — samma animation, mycket mindre fil, spelas överallt där video spelas.",
+    "introBody2": "Behöver du specifikt en .gif-fil kan du konvertera MP4:n med vilken gratis konverterare som helst. Men MP4 är oftast det bättre valet — mindre, mjukare, lättare att dela.",
+    "faq": {
+      "heading": "Vanliga frågor om GIF-nedladdning",
+      "items": [
+        {
+          "q": "Varför får jag en MP4 istället för en riktig .gif-fil?",
+          "a": "Twitter konverterar varje GIF till MP4 på serversidan. Det finns ingen original-.gif på deras servrar — bara MP4:n. Vi ger dig det som finns."
+        },
+        {
+          "q": "Hur laddar jag ner en GIF från Twitter?",
+          "a": "Kopiera tweet-länken, klistra in den ovan, tryck på Hämta GIF. Du får en MP4. Den loopar precis som original-GIF:en gjorde."
+        },
+        {
+          "q": "Kan jag konvertera MP4:n tillbaka till en riktig .gif?",
+          "a": "Ja — flera gratis verktyg online gör det. Men ärligt talat: MP4 är mindre, mjukare och fungerar där en GIF skulle. De flesta bryr sig inte."
+        },
+        {
+          "q": "Fungerar det på telefon?",
+          "a": "Ja, iOS och Android. Klistra in länken, tryck på Hämta GIF, spara MP4:n i Files eller ditt galleri."
+        }
+      ]
+    }
+  },
+  "guides": {
+    "iphone": {
+      "title": "How to Download Twitter Video on iPhone — Step by Step",
+      "description": "Step-by-step guide to download Twitter (X) video on iPhone. Save to Camera Roll, Files, or share to other apps. Works on iOS 15 and up. No app needed.",
+      "eyebrow": "iPhone guide",
+      "h1": "How to download Twitter video on iPhone",
+      "subtitle": "Save any tweet's video straight to your iPhone — no app, no shortcut, no jailbreak. Three taps and it's in your Files or Photos.",
+      "intro": "Twitter doesn't let you save videos directly from its app on iPhone. The native <strong>Share</strong> menu has no <strong>Save Video</strong> option for someone else's tweet. The workaround is to copy the link, paste it into a downloader, and save the MP4 to Files or Photos. Below: the exact steps, plus how to bypass common iOS quirks.",
+      "sections": [
+        {
+          "heading": "Step 1 — Copy the tweet link in the X app or Safari",
+          "body": "Open the tweet you want to save. Tap the <strong>Share</strong> icon (paper plane in the X app, arrow box in Safari). Choose <strong>Copy link</strong>. The URL is now on your clipboard — it should look like <code>https://x.com/username/status/...</code>."
+        },
+        {
+          "heading": "Step 2 — Paste the link on TwitDownloader",
+          "body": "Open this site in Safari (or Chrome). Tap the input box on the homepage. Hold and pick <strong>Paste</strong>. Hit <strong>Download</strong>. Within a couple of seconds you'll see preview thumbnails and quality options."
+        },
+        {
+          "heading": "Step 3 — Save the MP4 to Files or Photos",
+          "body": "Tap the <strong>HD</strong> button. Safari downloads the MP4. Tap the small download icon (next to the address bar) → tap the file → <strong>Share</strong> icon → <strong>Save Video</strong> to put it in Photos, or <strong>Save to Files</strong> for the Files app. Either way it's now offline."
+        },
+        {
+          "heading": "Common iPhone gotchas",
+          "body": "If <strong>Save Video</strong> is missing from the share sheet, you opened the file in the wrong app — open the download from Files first. If Safari blocks the download, check <strong>Settings → Safari → Downloads</strong> and make sure storage is set to On My iPhone or iCloud Drive. If the file plays inline instead of saving, hold the play button and choose <strong>Save to Files</strong>."
+        },
+        {
+          "heading": "Want just the audio or a GIF?",
+          "body": "Same steps, different tool. The <a href=\"/twitter-to-mp3\">Twitter to MP3 converter</a> strips audio. The <a href=\"/twitter-gif-downloader\">GIF downloader</a> handles Twitter's silent-MP4 GIFs. The <a href=\"/twitter-image-downloader\">image downloader</a> grabs original-resolution photos."
+        }
+      ],
+      "faq": {
+        "heading": "iPhone download FAQ",
+        "items": [
+          {
+            "q": "Why can't I save Twitter videos directly from the X app?",
+            "a": "Twitter intentionally removed the <strong>Save Video</strong> option from the share menu years ago. You can save your own uploaded videos in some cases, but other people's videos always require a downloader."
+          },
+          {
+            "q": "Do I need to install a shortcut or app?",
+            "a": "No. This site runs in Safari. Nothing to install — no shortcut, no profile, no app from the App Store. Just paste the link and download."
+          },
+          {
+            "q": "Can I download on iPhone 6/7/SE older models?",
+            "a": "Yes. Any iPhone running iOS 12+ can download via Safari. Older models just take a couple seconds longer."
+          },
+          {
+            "q": "Where does the file end up on iPhone?",
+            "a": "By default, Safari downloads go to <strong>Files → Downloads</strong> (under On My iPhone or iCloud Drive). From there you can move to Photos."
+          }
+        ]
+      }
+    },
+    "android": {
+      "title": "How to Download Twitter Video on Android — Step by Step",
+      "description": "Complete guide to download Twitter (X) video on Android. Save MP4 to Gallery or /Download folder. Works on every Android version, every phone, every browser.",
+      "eyebrow": "Android guide",
+      "h1": "How to download Twitter video on Android",
+      "subtitle": "Save any tweet to your Android phone — Samsung, Pixel, Xiaomi, OnePlus, anything. No APK install, no permissions.",
+      "intro": "Android makes this easier than iPhone. Downloads from the browser drop straight into your <strong>/Download</strong> folder by default, and most gallery apps pick them up automatically. Here's the exact flow.",
+      "sections": [
+        {
+          "heading": "Step 1 — Grab the tweet link",
+          "body": "In the X app, tap the <strong>Share</strong> icon under the tweet → <strong>Copy link</strong>. Or open the tweet in Chrome, hold the URL bar, and tap Copy. Either works."
+        },
+        {
+          "heading": "Step 2 — Paste on TwitDownloader",
+          "body": "Open this site in <strong>Chrome</strong>, Firefox, Samsung Internet, or any browser. Long-press the input box → <strong>Paste</strong>. Tap <strong>Download</strong>."
+        },
+        {
+          "heading": "Step 3 — Pick HD and save",
+          "body": "Tap the <strong>HD</strong> button. Chrome shows a download notification. The MP4 lands in <strong>/Download</strong> by default. Open the Files (or My Files) app, head to <strong>Downloads</strong>, and your video is there. Most gallery apps (Google Photos, Samsung Gallery) auto-index it within a minute."
+        },
+        {
+          "heading": "Save to Gallery instead of /Download",
+          "body": "If you want the file in your Gallery directly: after download, long-press the file in Files → <strong>Move</strong> → choose <strong>Movies</strong> or <strong>DCIM/Camera</strong>. Or share to Google Photos and use the upload option to bring it into your library."
+        },
+        {
+          "heading": "Want audio or images instead?",
+          "body": "The <a href=\"/twitter-to-mp3\">Twitter to MP3</a> tool handles audio extraction. The <a href=\"/twitter-image-downloader\">image downloader</a> grabs full-size photos. The <a href=\"/twitter-gif-downloader\">GIF tool</a> saves the MP4 that Twitter uses for GIFs."
+        }
+      ],
+      "faq": {
+        "heading": "Android download FAQ",
+        "items": [
+          {
+            "q": "Does this work on Samsung Galaxy / Pixel / Xiaomi / OnePlus?",
+            "a": "<strong>Every Android phone</strong>. The browser does the work, not the phone brand. Tested on Samsung One UI, stock Pixel, MIUI, OxygenOS, ColorOS — all fine."
+          },
+          {
+            "q": "Why does my MP4 go to /Download instead of Gallery?",
+            "a": "Android browsers drop downloads in <strong>/Download</strong> by default for security — they don't want random sites writing to your photo library. Move the file manually or wait for the gallery app to index it."
+          },
+          {
+            "q": "Do I need to enable Unknown Sources or sideload anything?",
+            "a": "No. This isn't an APK. It's a website. No special permissions, no developer mode, nothing weird."
+          },
+          {
+            "q": "Can I download on data, or do I need Wi-Fi?",
+            "a": "Either works. A typical Twitter video MP4 is <strong>2-15 MB</strong>. Even on 3G it finishes in under a minute."
+          }
+        ]
+      }
+    },
+    "save": {
+      "title": "Save Twitter Video — Free, Fast, No Sign-Up",
+      "description": "Save Twitter (X) video to your phone or computer. Free, no sign-up, no watermark. HD MP4 download. Works on every browser and every device.",
+      "eyebrow": "Save Twitter video",
+      "h1": "Save Twitter video to your device",
+      "subtitle": "The simplest way to save a Twitter video for offline viewing. Three steps, no sign-up, no app. Works on phone, tablet, and laptop.",
+      "intro": "<strong>Saving Twitter video</strong> used to be a hassle — you'd need a third-party app, a shortcut, or a sketchy browser extension. Not anymore. Paste the tweet link, hit save, get the MP4. That's the entire process for every device that has a browser.",
+      "sections": [
+        {
+          "heading": "Why save Twitter videos at all?",
+          "body": "Twitter can <strong>delete tweets</strong>, <strong>suspend accounts</strong>, and <strong>change algorithms</strong> overnight. If a video matters to you — a moment, a clip you laughed at, evidence, a tutorial — saving it offline means it's actually yours. The X app's <strong>Bookmarks</strong> feature only saves a reference; if the original tweet is deleted, your bookmark is dead."
+        },
+        {
+          "heading": "Save with three taps",
+          "body": "Open the tweet → <strong>Share</strong> → <strong>Copy link</strong>. Paste here. Tap <strong>Download</strong>. You get an MP4 — the same quality the uploader posted. No re-encoding, no watermark, no compression added."
+        },
+        {
+          "heading": "Where the file ends up",
+          "body": "<strong>iPhone Safari:</strong> Files → Downloads. From there you can save to Photos. <strong>Chrome on Android:</strong> /Download folder. <strong>Desktop browsers:</strong> your usual Downloads folder. Detailed steps in the <a href=\"/how-to-download-twitter-video-iphone\">iPhone guide</a> and <a href=\"/how-to-download-twitter-video-android\">Android guide</a>."
+        },
+        {
+          "heading": "Other Twitter media",
+          "body": "Save just the <a href=\"/twitter-to-mp3\">audio as MP3</a>. Save <a href=\"/twitter-image-downloader\">photos at full resolution</a>. Save <a href=\"/twitter-gif-downloader\">GIFs as MP4</a> (Twitter's GIF format)."
+        }
+      ],
+      "faq": {
+        "heading": "Save Twitter video FAQ",
+        "items": [
+          {
+            "q": "How do I save a Twitter video to my camera roll?",
+            "a": "<strong>iOS:</strong> download the MP4 via Safari, then in Files tap Share → <strong>Save Video</strong>. <strong>Android:</strong> after download, move from /Download to <strong>DCIM/Camera</strong> or share to Google Photos."
+          },
+          {
+            "q": "Can I save a Twitter video without an app?",
+            "a": "Yes. <strong>This is what we do.</strong> Browser-only, no install, no extension. Works on Safari, Chrome, Firefox, Edge, Brave, Samsung Internet — anything modern."
+          },
+          {
+            "q": "Will the saved video have a watermark?",
+            "a": "No. We don't add anything to the file. The MP4 you get is what Twitter served — same encoding, same bitrate, no logo, no banner."
+          },
+          {
+            "q": "Can I save private or deleted tweets?",
+            "a": "Only <strong>public, live tweets</strong>. If the account is locked or the tweet has been deleted, the source no longer exists and there's nothing to fetch."
+          }
+        ]
+      }
+    }
+  },
+  "related": {
+    "eyebrow": "Keep exploring",
+    "heading": "More ways to save from Twitter",
+    "items": {
+      "home": {
+        "title": "Twitter video downloader",
+        "body": "Save any tweet's video as MP4. HD up to 1080p, audio bundled."
+      },
+      "mp3": {
+        "title": "Twitter to MP3 converter",
+        "body": "Strip the audio from any Twitter video. Save as MP3."
+      },
+      "image": {
+        "title": "Twitter image downloader",
+        "body": "Grab any photo from a tweet in full original resolution."
+      },
+      "gif": {
+        "title": "Twitter GIF downloader",
+        "body": "Save Twitter GIFs as MP4 — smaller, smoother, same loop."
+      }
+    }
+  }
+}

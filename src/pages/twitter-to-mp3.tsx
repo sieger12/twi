@@ -5,47 +5,54 @@ import { SiteShell } from "@/components/SiteShell";
 import { SeoHead } from "@/components/SeoHead";
 import { Hero } from "@/components/Hero";
 import { HowToSteps } from "@/components/HowToSteps";
-import { FeatureGrid } from "@/components/FeatureGrid";
 import { AudioFaq } from "@/components/AudioFaq";
+import { Prose } from "@/components/Prose";
+import { RichText } from "@/components/RichText";
 import { RelatedTools } from "@/components/RelatedTools";
 import {
   buildFaqSchema,
   buildHowToSchema,
-  buildWebAppSchema,
-  buildOrganizationSchema,
+  buildBreadcrumbSchema,
 } from "@/lib/schema";
 
-const FAQ_COUNT = 8;
+const FAQ_COUNT = 4;
+const PATH = "/twitter-to-mp3";
 
-export default function HomePage() {
+export default function TwitterToMp3Page() {
   const { t } = useTranslation("common");
 
   const schemas = [
-    buildWebAppSchema("en", t("home.description")),
-    buildOrganizationSchema(),
-    buildFaqSchema(t, "home.faq", FAQ_COUNT),
-    buildHowToSchema(t, t("home.h1")),
+    buildFaqSchema(t, "mp3.faq", FAQ_COUNT),
+    buildHowToSchema(t, t("mp3.h1")),
+    buildBreadcrumbSchema("en", [
+      { name: t("nav.home"), path: "/" },
+      { name: t("mp3.eyebrow"), path: PATH },
+    ]),
   ];
 
   return (
     <>
       <SeoHead
-        title={t("home.title")}
-        description={t("home.description")}
-        path="/"
+        title={t("mp3.title")}
+        description={t("mp3.description")}
+        path={PATH}
         jsonLd={schemas}
       />
       <SiteShell>
         <Hero
-          eyebrow={t("home.eyebrow")}
-          title={t("home.h1")}
-          subtitle={t("home.subtitle")}
-          format="video"
+          eyebrow={t("mp3.eyebrow")}
+          title={t("mp3.h1")}
+          subtitle={t("mp3.subtitle")}
+          format="mp3"
         />
+        <Prose>
+          <h2>{t("mp3.introHeading")}</h2>
+          <RichText html={t("mp3.introBody")} as="p" />
+          <RichText html={t("mp3.introBody2")} as="p" />
+        </Prose>
         <HowToSteps />
-        <FeatureGrid />
-        <AudioFaq faqKey="home.faq" count={FAQ_COUNT} />
-        <RelatedTools exclude="home" />
+        <AudioFaq faqKey="mp3.faq" count={FAQ_COUNT} />
+        <RelatedTools exclude="mp3" />
       </SiteShell>
     </>
   );

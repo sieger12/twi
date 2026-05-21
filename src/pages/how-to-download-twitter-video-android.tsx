@@ -4,48 +4,47 @@ import { serverSideTranslations } from "next-i18next/pages/serverSideTranslation
 import { SiteShell } from "@/components/SiteShell";
 import { SeoHead } from "@/components/SeoHead";
 import { Hero } from "@/components/Hero";
-import { HowToSteps } from "@/components/HowToSteps";
-import { FeatureGrid } from "@/components/FeatureGrid";
+import { GuideArticle } from "@/components/GuideArticle";
 import { AudioFaq } from "@/components/AudioFaq";
 import { RelatedTools } from "@/components/RelatedTools";
 import {
   buildFaqSchema,
-  buildHowToSchema,
-  buildWebAppSchema,
-  buildOrganizationSchema,
+  buildBreadcrumbSchema,
 } from "@/lib/schema";
 
-const FAQ_COUNT = 8;
+const FAQ_COUNT = 4;
+const PATH = "/how-to-download-twitter-video-android";
+const NS = "guides.android";
 
-export default function HomePage() {
+export default function GuideAndroidPage() {
   const { t } = useTranslation("common");
 
   const schemas = [
-    buildWebAppSchema("en", t("home.description")),
-    buildOrganizationSchema(),
-    buildFaqSchema(t, "home.faq", FAQ_COUNT),
-    buildHowToSchema(t, t("home.h1")),
+    buildFaqSchema(t, `${NS}.faq`, FAQ_COUNT),
+    buildBreadcrumbSchema("en", [
+      { name: t("nav.home"), path: "/" },
+      { name: t(`${NS}.eyebrow`), path: PATH },
+    ]),
   ];
 
   return (
     <>
       <SeoHead
-        title={t("home.title")}
-        description={t("home.description")}
-        path="/"
+        title={t(`${NS}.title`)}
+        description={t(`${NS}.description`)}
+        path={PATH}
         jsonLd={schemas}
       />
       <SiteShell>
         <Hero
-          eyebrow={t("home.eyebrow")}
-          title={t("home.h1")}
-          subtitle={t("home.subtitle")}
+          eyebrow={t(`${NS}.eyebrow`)}
+          title={t(`${NS}.h1`)}
+          subtitle={t(`${NS}.subtitle`)}
           format="video"
         />
-        <HowToSteps />
-        <FeatureGrid />
-        <AudioFaq faqKey="home.faq" count={FAQ_COUNT} />
-        <RelatedTools exclude="home" />
+        <GuideArticle ns={NS} />
+        <AudioFaq faqKey={`${NS}.faq`} count={FAQ_COUNT} />
+        <RelatedTools />
       </SiteShell>
     </>
   );

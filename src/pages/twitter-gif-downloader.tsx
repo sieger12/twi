@@ -5,47 +5,54 @@ import { SiteShell } from "@/components/SiteShell";
 import { SeoHead } from "@/components/SeoHead";
 import { Hero } from "@/components/Hero";
 import { HowToSteps } from "@/components/HowToSteps";
-import { FeatureGrid } from "@/components/FeatureGrid";
 import { AudioFaq } from "@/components/AudioFaq";
+import { Prose } from "@/components/Prose";
+import { RichText } from "@/components/RichText";
 import { RelatedTools } from "@/components/RelatedTools";
 import {
   buildFaqSchema,
   buildHowToSchema,
-  buildWebAppSchema,
-  buildOrganizationSchema,
+  buildBreadcrumbSchema,
 } from "@/lib/schema";
 
-const FAQ_COUNT = 8;
+const FAQ_COUNT = 4;
+const PATH = "/twitter-gif-downloader";
 
-export default function HomePage() {
+export default function TwitterGifPage() {
   const { t } = useTranslation("common");
 
   const schemas = [
-    buildWebAppSchema("en", t("home.description")),
-    buildOrganizationSchema(),
-    buildFaqSchema(t, "home.faq", FAQ_COUNT),
-    buildHowToSchema(t, t("home.h1")),
+    buildFaqSchema(t, "gif.faq", FAQ_COUNT),
+    buildHowToSchema(t, t("gif.h1")),
+    buildBreadcrumbSchema("en", [
+      { name: t("nav.home"), path: "/" },
+      { name: t("gif.eyebrow"), path: PATH },
+    ]),
   ];
 
   return (
     <>
       <SeoHead
-        title={t("home.title")}
-        description={t("home.description")}
-        path="/"
+        title={t("gif.title")}
+        description={t("gif.description")}
+        path={PATH}
         jsonLd={schemas}
       />
       <SiteShell>
         <Hero
-          eyebrow={t("home.eyebrow")}
-          title={t("home.h1")}
-          subtitle={t("home.subtitle")}
-          format="video"
+          eyebrow={t("gif.eyebrow")}
+          title={t("gif.h1")}
+          subtitle={t("gif.subtitle")}
+          format="gif"
         />
+        <Prose>
+          <h2>{t("gif.introHeading")}</h2>
+          <RichText html={t("gif.introBody")} as="p" />
+          <RichText html={t("gif.introBody2")} as="p" />
+        </Prose>
         <HowToSteps />
-        <FeatureGrid />
-        <AudioFaq faqKey="home.faq" count={FAQ_COUNT} />
-        <RelatedTools exclude="home" />
+        <AudioFaq faqKey="gif.faq" count={FAQ_COUNT} />
+        <RelatedTools exclude="gif" />
       </SiteShell>
     </>
   );
