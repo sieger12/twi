@@ -9,6 +9,7 @@ import { AudioFaq } from "@/components/AudioFaq";
 import { RelatedTools } from "@/components/RelatedTools";
 import {
   buildFaqSchema,
+  buildHowToSchema,
   buildBreadcrumbSchema,
 } from "@/lib/schema";
 
@@ -21,6 +22,7 @@ export default function GuideAndroidPage() {
 
   const schemas = [
     buildFaqSchema(t, `${NS}.faq`, FAQ_COUNT),
+    buildHowToSchema(t, t(`${NS}.h1`)),
     buildBreadcrumbSchema("en", [
       { name: t("nav.home"), path: "/" },
       { name: t(`${NS}.eyebrow`), path: PATH },
