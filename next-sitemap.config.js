@@ -42,10 +42,19 @@ module.exports = {
       changefreq = "weekly";
     } else if (
       path.includes("how-to-download-twitter-video") ||
-      path.includes("save-twitter-video")
+      path.includes("save-twitter-video") ||
+      path.includes("alternatives") ||
+      path.startsWith("/blog/") ||
+      /\/[a-z]{2,7}(-[A-Z]{2})?\/blog\//.test(path)
     ) {
       priority = 0.8;
       changefreq = "weekly";
+    } else if (
+      path === "/blog" ||
+      /^\/[a-z]{2,7}(-[A-Z]{2})?\/blog$/.test(path)
+    ) {
+      priority = 0.7;
+      changefreq = "daily";
     } else if (
       path.includes("/privacy") ||
       path.includes("/terms") ||

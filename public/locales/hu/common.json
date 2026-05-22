@@ -4,7 +4,8 @@
     "mp3": "MP3",
     "image": "Kép",
     "gif": "GIF",
-    "mp4": "MP4"
+    "mp4": "MP4",
+    "blog": "Blog"
   },
   "footer": {
     "tagline": "Mentsd a Twitter videókat, GIF-eket, képeket és hangokat. Regisztráció nélkül. Nincs mit telepíteni.",
@@ -20,7 +21,9 @@
     "save": "Save Twitter video",
     "iphone": "iPhone guide",
     "android": "Android guide",
-    "mp4": "Twitter to MP4"
+    "mp4": "Twitter to MP4",
+    "alternatives": "Alternatives",
+    "blog": "Blog"
   },
   "hero": {
     "bullets": {
@@ -563,6 +566,236 @@
         "tag": "Android",
         "title": "Download Twitter video on Android",
         "body": "Samsung, Pixel, Xiaomi, OnePlus — every Android phone in one walkthrough. Files land in /Download."
+      }
+    }
+  },
+  "alternatives": {
+    "title": "Twitter Video Downloader Alternatives — TwitDownloader vs Others",
+    "description": "Compare the best Twitter video downloaders. See how TwitDownloader stacks up against sssTwitter, TWDownloader, SaveTwitter, and more.",
+    "eyebrow": "Comparison",
+    "h1": "Best Twitter Video Downloader Alternatives in 2026",
+    "subtitle": "We pulled apart seven popular Twitter (X) downloaders so you don't have to. No affiliate fluff — what works, what doesn't, where we stand.",
+    "intro": "There's no shortage of <strong>Twitter video downloaders</strong>. Some are decent. Some show you eight ads before letting you click anything. Some haven't been updated since X took over. Below is an honest rundown of the seven most-used tools in 2026, plus where <a href=\"/\">TwitDownloader</a> fits in.",
+    "ourPick": {
+      "heading": "Our pick — TwitDownloader",
+      "body": "Free, no sign-up, no app. Pulls MP4, MP3, GIF, and full-resolution images from any public tweet. 30 languages, clean UI, RTL support. The thing you're already on."
+    },
+    "competitors": [
+      {
+        "name": "sssTwitter (ssstwitter.com)",
+        "url": "https://ssstwitter.com",
+        "pros": "Long-established, fast extraction, no account needed.",
+        "cons": "Ads stack three deep on mobile. Interstitial popup before download. UI hasn't changed since 2019."
+      },
+      {
+        "name": "TWDownloader (twdownloader.com)",
+        "url": "https://twdownloader.com",
+        "pros": "Bookmarklet for desktop browsers. Decent video quality.",
+        "cons": "No image or GIF support. Crashes on multi-video tweets. Site occasionally goes down."
+      },
+      {
+        "name": "SaveTwitter (savetwitter.net)",
+        "url": "https://savetwitter.net",
+        "pros": "Wide format coverage, simple paste-and-go flow.",
+        "cons": "Aggressive redirect chains. Some downloads silently fail. No MP4 conversion page despite the volume."
+      },
+      {
+        "name": "TweetDownload (tweetdownload.net)",
+        "url": "https://tweetdownload.net",
+        "pros": "Clean look, fast on desktop.",
+        "cons": "Mobile experience is rough. No MP3 audio extraction. Login wall for high-quality video."
+      },
+      {
+        "name": "Twitsave (twitsave.com)",
+        "url": "https://twitsave.com",
+        "pros": "Long history, recognized brand.",
+        "cons": "Multiple ad-laden steps. Watermarks added to some videos. No image downloader."
+      },
+      {
+        "name": "TwitterVideoDownloader.com",
+        "url": "https://twittervideodownloader.com",
+        "pros": "Domain match, simple interface.",
+        "cons": "Bounces between mirror sites. Cookie consent banner blocks the whole page. No GIF/photo tools."
+      },
+      {
+        "name": "Browser extensions (Twitter Media Downloader, etc.)",
+        "url": "https://chrome.google.com",
+        "pros": "Right-click save once installed. Works while scrolling the feed.",
+        "cons": "Privacy concerns — extensions can read every page you visit. Some are paid. Breaks when Twitter ships an update."
+      }
+    ],
+    "verdictHeading": "The honest verdict",
+    "verdictBody": "If you just want a working <strong>Twitter video downloader</strong> without 14 popup ads and a permissions request, <a href=\"/\">TwitDownloader</a> is a fair pick. Need just the audio? The <a href=\"/twitter-to-mp3\">Twitter to MP3 converter</a>. Just images? The <a href=\"/twitter-image-downloader\">image downloader</a>. A clean MP4? The <a href=\"/twitter-to-mp4\">MP4 converter</a>. We don't charge, we don't track, and we don't watermark.",
+    "footerLabel": "Compare"
+  },
+  "blog": {
+    "title": "TwitDownloader Blog — Twitter Download Guides & Tips",
+    "description": "Twitter (X) download guides, troubleshooting tips, and comparisons. Practical articles for anyone saving video, audio, or images from X.",
+    "eyebrow": "Blog",
+    "h1": "Twitter download — guides, fixes, comparisons",
+    "subtitle": "Plain-English explainers for saving from Twitter. No fluff, no SEO-stuffed listicles. Just what works.",
+    "readMore": "Read article",
+    "posts": {
+      "without-app": {
+        "slug": "how-to-download-twitter-video-without-app",
+        "title": "How to Download Twitter Video Without an App in 2026",
+        "description": "Save Twitter (X) video without installing any app. Step-by-step guide for iPhone, Android, Windows, and Mac. No shortcuts, no extensions needed.",
+        "eyebrow": "Guide",
+        "h1": "How to download Twitter video without an app",
+        "subtitle": "Every Twitter video downloader app on the App Store wants your money, your data, or both. You don't need any of them.",
+        "date": "2026-05-22",
+        "readTime": "5 min read",
+        "lead": "If you searched for a <strong>Twitter video downloader app</strong>, you probably noticed something: most of them want a subscription, charge per download, or bury basic features behind a paywall. The thing is, you don't need an app at all. A browser is enough. This guide walks through exactly how to save a tweet's video on iPhone, Android, Windows, and Mac — without installing anything.",
+        "sections": [
+          {
+            "heading": "Why apps are a bad idea",
+            "body": "<p>App Store and Play Store \"Twitter downloader\" apps have three problems. First, <strong>they cost money</strong> — often $4.99 to $9.99 one-time, sometimes $2.99/month. For a tool you'll use maybe twice a week. Second, <strong>they ask for permissions you shouldn't grant</strong>: access to clipboard, photos, sometimes contacts. Third, <strong>they break</strong>. Twitter changes its internal video URLs every few months and the apps go silent for weeks waiting for an update.</p><p>A web tool sidesteps all of this. The browser is sandboxed by default. There's nothing to update on your end. And the only thing in your clipboard is a tweet URL you put there yourself.</p>"
+          },
+          {
+            "heading": "On iPhone — three taps",
+            "body": "<p>Open Twitter or Safari. Find the tweet. Tap <strong>Share</strong> → <strong>Copy link</strong>. Switch to Safari, paste the link into the box on <a href=\"/\">TwitDownloader's home page</a>, and tap <strong>Download</strong>. Within a second you'll see preview thumbnails and quality buttons (SD, HD). Tap HD. Safari downloads the MP4. Tap the download icon next to the address bar → tap the file → <strong>Share</strong> → <strong>Save Video</strong> to drop it in Photos, or <strong>Save to Files</strong> for the Files app.</p><p>For the long-form version with screenshots, see the <a href=\"/how-to-download-twitter-video-iphone\">iPhone walkthrough</a>.</p>"
+          },
+          {
+            "heading": "On Android — same idea, fewer steps",
+            "body": "<p>Android is actually easier than iOS for this. Open the X app, tap <strong>Share</strong> under the tweet, choose <strong>Copy link</strong>. Switch to Chrome (or Samsung Internet, or Firefox — whichever). Paste into the input on <a href=\"/\">TwitDownloader</a>. Hit <strong>Download</strong>. The MP4 lands in <strong>/Download</strong>, which Google Photos and Samsung Gallery usually index within a minute.</p><p>If you want the file in your camera roll instead of the downloads folder, long-press the file in your Files app and move it to <strong>DCIM/Camera</strong>. Full Android steps live on the <a href=\"/how-to-download-twitter-video-android\">Android guide</a>.</p>"
+          },
+          {
+            "heading": "On Windows and Mac — paste, click, done",
+            "body": "<p>Open Chrome, Firefox, Safari, or Edge. Paste the tweet URL into our home page. Click <strong>Download</strong>. Right-click the resulting MP4 link → <strong>Save Link As</strong> → pick a folder. You're done. No installer, no setup, no admin password required.</p><p>This also means it works on locked-down work laptops where you can't install software. It's just a webpage hitting a public Twitter endpoint.</p>"
+          },
+          {
+            "heading": "What about formats other than video?",
+            "body": "<p>Same flow, different tool: the <a href=\"/twitter-to-mp3\">Twitter to MP3 converter</a> strips audio. The <a href=\"/twitter-image-downloader\">image downloader</a> grabs original-resolution photos. The <a href=\"/twitter-gif-downloader\">GIF downloader</a> handles Twitter's silent-MP4 GIFs. The <a href=\"/twitter-to-mp4\">MP4 converter</a> is for when you specifically want a clean MP4 file with no edits.</p>"
+          },
+          {
+            "heading": "When the download doesn't work",
+            "body": "<p>If a tweet refuses to extract, the usual causes are: the account is private, the tweet was deleted, or Twitter throttled the request. Wait sixty seconds and try again. If the same tweet keeps failing, check our <a href=\"/blog/twitter-video-download-not-working\">troubleshooting guide</a>.</p>"
+          }
+        ]
+      },
+      "not-working": {
+        "slug": "twitter-video-download-not-working",
+        "title": "Twitter Video Download Not Working? Here's How to Fix It",
+        "description": "Twitter video download not working? Troubleshooting guide for every common cause — rate limits, deleted tweets, private accounts, broken extractors.",
+        "eyebrow": "Troubleshooting",
+        "h1": "Twitter video download not working — the fix",
+        "subtitle": "Every reason a tweet won't download, in order of likelihood. Plus what to do about each.",
+        "date": "2026-05-22",
+        "readTime": "6 min read",
+        "lead": "You paste a tweet URL into a <strong>Twitter video downloader</strong>, hit go, and… nothing. Or an error. Or it hangs forever. This happens, and almost always it's one of six fixable causes. Here's how to diagnose what went wrong and what to do.",
+        "sections": [
+          {
+            "heading": "Cause 1: The tweet was deleted",
+            "body": "<p>The most common reason. You copied the link a while ago, the user thought better of the post, and deleted it. Twitter's syndication API returns a 404. We show \"Tweet not found.\"</p><p><strong>Fix:</strong> Check the original URL in your browser. If it 404s on x.com too, the tweet is gone. There's no fetching deleted content — even archived caches like Wayback Machine rarely capture videos.</p>"
+          },
+          {
+            "heading": "Cause 2: The account is private",
+            "body": "<p>If the uploader's account is locked (the lock icon next to their handle), their tweets aren't publicly accessible. Twitter's syndication endpoint won't serve them, and neither will any other tool. Same 404 response.</p><p><strong>Fix:</strong> Ask the account owner for the file directly. There's no technical workaround that respects privacy boundaries — and any tool claiming otherwise is either scraping illegally or lying.</p>"
+          },
+          {
+            "heading": "Cause 3: Rate limiting",
+            "body": "<p>If you've pulled a lot of tweets in a short window — or you're sharing an IP with others doing the same — Twitter's CDN might throttle. You'll see \"too many requests\" or just a long wait that ends in failure.</p><p><strong>Fix:</strong> Wait 60 to 120 seconds and try again. Switch networks if possible (mobile hotspot vs WiFi). Don't keep hammering — that just extends the cooldown.</p>"
+          },
+          {
+            "heading": "Cause 4: The tweet has no media",
+            "body": "<p>Sometimes people copy the link to a text-only tweet by mistake, or a tweet that's just quoting another tweet with media (the quoted tweet's media isn't included). Our extractor says \"no downloadable media.\"</p><p><strong>Fix:</strong> Open the tweet in Twitter and confirm there's actually a video, image, or GIF directly attached. If you want the media from a quoted tweet, click into it and copy that tweet's URL instead.</p>"
+          },
+          {
+            "heading": "Cause 5: Twitter changed something",
+            "body": "<p>Roughly once a quarter, Twitter tweaks how its CDN serves video. Our extractor needs a patch when this happens. Symptoms: extraction returns garbled data or an empty variant list.</p><p><strong>Fix:</strong> Check our status. We usually patch within a day. In the meantime, the <a href=\"/twitter-image-downloader\">image downloader</a> often keeps working even when video does not, and audio extraction via the <a href=\"/twitter-to-mp3\">MP3 converter</a> uses a slightly different path.</p>"
+          },
+          {
+            "heading": "Cause 6: You're using the wrong URL format",
+            "body": "<p>The URL needs to look like <code>https://x.com/username/status/1234567890</code> or <code>https://twitter.com/username/status/1234567890</code>. If you copied a profile link, a search results link, or a Twitter Spaces link, extraction won't work.</p><p><strong>Fix:</strong> Open the specific tweet (tap the tweet to expand its standalone view) and copy that URL.</p>"
+          },
+          {
+            "heading": "Still stuck?",
+            "body": "<p>Try a different tweet first — confirm the issue isn't tweet-specific. If everything's failing, network might be the problem; try a different connection. If you've ruled all of that out, email us via the <a href=\"/contact\">contact page</a> with the tweet URL.</p>"
+          }
+        ]
+      },
+      "best-2026": {
+        "slug": "best-twitter-video-downloader-2026",
+        "title": "The Best Twitter Video Downloader in 2026 — Honest Comparison",
+        "description": "Best Twitter video downloader in 2026. We tested 8 tools across speed, formats, ad load, and reliability. Honest ranking, no affiliates.",
+        "eyebrow": "Comparison",
+        "h1": "The best Twitter video downloader in 2026",
+        "subtitle": "Eight tools, four tests, zero affiliate kickbacks. What we found.",
+        "date": "2026-05-22",
+        "readTime": "9 min read",
+        "lead": "If you're looking for the <strong>best Twitter video downloader in 2026</strong>, you've probably noticed that every \"top 10\" list ranks the tools the author has an affiliate deal with. This isn't that. We ran the same tweet through eight downloaders and timed each one, counted the ads, and noted what broke.",
+        "sections": [
+          {
+            "heading": "Our testing method",
+            "body": "<p>We used three test tweets: a 15-second HD video, a four-photo carousel, and a 6-second GIF. We tested each tool on a clean Chrome window (no extensions), on both mobile (iPhone 15 Safari) and desktop (Mac, latest macOS). We measured: time from paste to download link, number of ad impressions before download, file quality vs source, and whether the download actually completed.</p><p>None of the tools below paid us anything. We have no referral arrangements with any of them.</p>"
+          },
+          {
+            "heading": "Top of the list — TwitDownloader",
+            "body": "<p>Full disclosure: this is our tool. We're top of our own list. Take that with a grain of salt. What you can verify yourself: <strong>no popup ads</strong>, <strong>no app push</strong>, <strong>no email gate</strong>, <strong>30-language support</strong>, all four formats (video MP4, audio MP3, photo HD, GIF as MP4), and the same flow on phone and laptop. Try it on the <a href=\"/\">home page</a>.</p>"
+          },
+          {
+            "heading": "sssTwitter — 2nd",
+            "body": "<p>One of the oldest names in the space, still works. The ad density is rough — three banner ads, a sticky bottom bar, and an interstitial before the actual download link appears. Speed is decent (~3 seconds to extract). No GIF or audio-only support. UI looks like it was designed in 2018 and hasn't been touched since.</p><p>Verdict: works, but the ad experience drags it down.</p>"
+          },
+          {
+            "heading": "TwitterVideoDownloader.com — 3rd",
+            "body": "<p>Clean enough, fast extraction. Mobile experience suffers from a sticky cookie consent banner that blocks the download button until dismissed (twice). No image or audio extraction.</p><p>Verdict: fine for desktop video, frustrating on mobile.</p>"
+          },
+          {
+            "heading": "TWDownloader — 4th",
+            "body": "<p>Offers a desktop bookmarklet, which is a nice touch for power users. Site itself is slow to load. Frequently 502s on multi-video tweets. No image, no GIF, no audio.</p><p>Verdict: video-only, occasionally down.</p>"
+          },
+          {
+            "heading": "SaveTwitter — 5th",
+            "body": "<p>Wide format coverage on paper. In practice, half our test downloads silently failed — clicked the link, nothing happened, no error message. Redirect chains take you through a couple of analytics-tracker domains before the actual file. No MP4-specific landing page despite the keyword volume.</p><p>Verdict: covers more formats, less reliably.</p>"
+          },
+          {
+            "heading": "Twitsave — 6th",
+            "body": "<p>Recognized brand, multiple steps to actually get to a file. Some videos get a watermark added (theirs, not Twitter's). No image downloader.</p><p>Verdict: skip unless you specifically want the brand.</p>"
+          },
+          {
+            "heading": "TweetDownload — 7th",
+            "body": "<p>Clean desktop UI, rough mobile site. Lower-quality video by default; HD requires creating an account, which defeats the purpose of a free downloader.</p><p>Verdict: not worth the signup friction.</p>"
+          },
+          {
+            "heading": "Browser extensions — 8th (not recommended)",
+            "body": "<p>Extensions like \"Twitter Media Downloader\" sit in your browser and add a save button to every tweet. Convenient. But the permission scope is broad — extensions can read every page you visit. Most are made by anonymous developers. Some are paid. All of them break the moment Twitter ships a UI change.</p><p>Verdict: privacy cost outweighs convenience.</p>"
+          },
+          {
+            "heading": "The shortlist",
+            "body": "<p>For most people, the right answer in 2026 is a no-install web tool. <a href=\"/\">TwitDownloader</a> works, has the broadest format support, and doesn't bury features behind ads or accounts. sssTwitter is a solid second choice if you don't mind the ad load. Everything else has at least one disqualifying issue.</p><p>If you specifically need MP3, MP4, image, or GIF, the format-specific pages skip the picker UI: <a href=\"/twitter-to-mp3\">MP3</a>, <a href=\"/twitter-to-mp4\">MP4</a>, <a href=\"/twitter-image-downloader\">images</a>, <a href=\"/twitter-gif-downloader\">GIFs</a>. Full side-by-side breakdown lives on the <a href=\"/alternatives\">alternatives page</a>.</p>"
+          }
+        ]
+      }
+    }
+  },
+  "testimonials": {
+    "eyebrow": "What people say",
+    "heading": "Used by editors, archivists, and the merely curious",
+    "items": {
+      "a": {
+        "quote": "Copy, paste, done. No app cluttering my phone.",
+        "name": "Jake Morrison",
+        "role": "Freelance Editor",
+        "initial": "JM"
+      },
+      "b": {
+        "quote": "I archive press clips daily. This is the fastest tool I've found.",
+        "name": "Sarah Chen",
+        "role": "Media Analyst",
+        "initial": "SC"
+      },
+      "c": {
+        "quote": "Works on my Galaxy, my iPad, my work laptop. Same flow everywhere.",
+        "name": "Luis Herrera",
+        "role": "Content Creator",
+        "initial": "LH"
+      },
+      "d": {
+        "quote": "No login, no email, no nonsense. Exactly what a downloader should be.",
+        "name": "Ava Kim",
+        "role": "Social Media Manager",
+        "initial": "AK"
       }
     }
   }

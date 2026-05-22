@@ -111,6 +111,22 @@ export function SiteFooter() {
                   {t("footer.contact")}
                 </Link>
               </li>
+              <li>
+                <Link
+                  href="/blog"
+                  className="text-ink-muted hover:text-ink"
+                >
+                  {t("footer.blog")}
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/alternatives"
+                  className="text-ink-muted hover:text-ink"
+                >
+                  {t("footer.alternatives")}
+                </Link>
+              </li>
             </ul>
           </div>
 

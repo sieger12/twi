@@ -12,6 +12,7 @@ const navItems = [
   { href: "/twitter-to-mp4", key: "nav.mp4" },
   { href: "/twitter-image-downloader", key: "nav.image" },
   { href: "/twitter-gif-downloader", key: "nav.gif" },
+  { href: "/blog", key: "nav.blog" },
 ];
 
 export function SiteNav() {
