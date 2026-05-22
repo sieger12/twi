@@ -31,6 +31,11 @@ async function generateIcons() {
 
 async function generateOgFallback() {
   const out = path.join(PUBLIC, "og-default.png");
+  const host = (
+    process.env.NEXT_PUBLIC_SITE_URL || "https://twi-delta.vercel.app"
+  )
+    .replace(/^https?:\/\//, "")
+    .replace(/\/$/, "");
   const svg = Buffer.from(`
     <svg width="1200" height="630" xmlns="http://www.w3.org/2000/svg">
       <defs>
@@ -53,7 +58,7 @@ async function generateOgFallback() {
         <circle cx="5" cy="5" r="5" fill="#d4ff3a"/>
         <text x="20" y="10" font-family="sans-serif" font-size="18" fill="#5a5751" letter-spacing="3">FREE · NO SIGN-UP · HD</text>
       </g>
-      <text x="1128" y="570" font-family="sans-serif" font-size="22" fill="#8d8a82" text-anchor="end">twitdownloader.com</text>
+      <text x="1128" y="570" font-family="sans-serif" font-size="22" fill="#8d8a82" text-anchor="end">${host}</text>
     </svg>
   `);
   await sharp(svg).png({ compressionLevel: 9 }).toFile(out);

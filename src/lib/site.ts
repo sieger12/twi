@@ -1,4 +1,10 @@
-export const SITE_URL = "https://twitdownloader.com";
+// Single source of truth for the site URL.
+// Override via NEXT_PUBLIC_SITE_URL in .env / Vercel project settings
+// once a real domain is purchased. Fallback is the Vercel preview URL —
+// NOT twitdownloader.com, which is owned by a competitor.
+export const SITE_URL =
+  process.env.NEXT_PUBLIC_SITE_URL?.replace(/\/$/, "") ??
+  "https://twi-delta.vercel.app";
 export const SITE_NAME = "TwitDownloader";
 export const SITE_TAGLINE = "Download Twitter (X) video, GIF, image, MP3";
 

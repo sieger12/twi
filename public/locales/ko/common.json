@@ -229,7 +229,7 @@
       "h1": "문의",
       "lead": "뭔가 망가졌거나, 저장하면 안 되는 트윗을 발견했거나, 그냥 인사하고 싶다면 — 메일 주세요.",
       "emailLabel": "이메일",
-      "email": "hello@twitdownloader.com",
+      "email": "hello@twi-delta.vercel.app",
       "copyrightHeading": "저작권 침해 신고",
       "copyrightBody": "다운로드가 귀하의 권리를 침해한다면 트윗 URL과 소유권 증빙을 첨부해 이메일을 보내주세요. 24시간 안에 캐시된 파일을 삭제합니다. 보통은 더 빨라요."
     },

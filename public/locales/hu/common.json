@@ -232,7 +232,7 @@
       "h1": "Kapcsolat",
       "lead": "Ha valami nem megy, vagy találtál egy tweetet, amit nem kellene mentenünk, vagy egyszerűen csak köszönsz egyet — írj nekünk.",
       "emailLabel": "E-mail",
-      "email": "hello@twitdownloader.com",
+      "email": "hello@twi-delta.vercel.app",
       "copyrightHeading": "Szerzői jogi eltávolítás",
       "copyrightBody": "Ha egy letöltés sérti a jogaidat, küldd el a tweet URL-jét és a tulajdonjog igazolását. 24 órán belül töröljük a gyorsítótárazott fájlt — általában gyorsabban."
     },

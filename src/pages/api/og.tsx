@@ -6,6 +6,11 @@ export const config = {
 };
 
 const SITE_NAME = "TwitDownloader";
+const SITE_HOST = (
+  process.env.NEXT_PUBLIC_SITE_URL ?? "https://twi-delta.vercel.app"
+)
+  .replace(/^https?:\/\//, "")
+  .replace(/\/$/, "");
 
 export default function handler(req: NextRequest) {
   try {
@@ -121,7 +126,7 @@ export default function handler(req: NextRequest) {
               </span>
             </div>
             <div style={{ fontWeight: 500, color: "#8d8a82" }}>
-              twitdownloader.com
+              {SITE_HOST}
             </div>
           </div>
         </div>

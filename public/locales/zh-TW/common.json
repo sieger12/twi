@@ -232,7 +232,7 @@
       "h1": "聯絡我們",
       "lead": "如果哪邊壞了,或者你發現我們不該存的推文,或單純想打聲招呼 — 寫信給我們。",
       "emailLabel": "Email",
-      "email": "hello@twitdownloader.com",
+      "email": "hello@twi-delta.vercel.app",
       "copyrightHeading": "版權下架通知",
       "copyrightBody": "如果某個下載侵犯到你的權利,請寄信附上推文網址跟所有權證明。我們會在 24 小時內移除快取檔案 — 通常更快。"
     },

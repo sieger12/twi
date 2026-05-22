@@ -229,7 +229,7 @@
       "h1": "Liên hệ",
       "lead": "Có gì hỏng, thấy tweet không nên được lưu, hay chỉ muốn chào hỏi — viết cho chúng tôi.",
       "emailLabel": "Email",
-      "email": "hello@twitdownloader.com",
+      "email": "hello@twi-delta.vercel.app",
       "copyrightHeading": "Gỡ nội dung bản quyền",
       "copyrightBody": "Nếu một bản tải xâm phạm quyền của bạn, gửi email kèm URL tweet và bằng chứng sở hữu. Chúng tôi xóa file cache trong vòng 24 giờ — thường nhanh hơn."
     },
