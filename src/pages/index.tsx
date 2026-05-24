@@ -17,10 +17,13 @@ import {
   buildOrganizationSchema,
 } from "@/lib/schema";
 
-const FAQ_COUNT = 8;
-
 export default function HomePage() {
   const { t } = useTranslation("common");
+
+  const faqItems = (t("home.faq.items", { returnObjects: true }) as
+    | Array<{ q: string; a: string }>
+    | undefined) ?? [];
+  const FAQ_COUNT = faqItems.length;
 
   const schemas = [
     buildWebAppSchema("en", t("home.description")),
