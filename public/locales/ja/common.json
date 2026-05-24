@@ -18,12 +18,12 @@
     "privacy": "プライバシー",
     "rights": "All rights reserved.",
     "disclaimer": "X Corp.およびTwitter, Inc.とは無関係です。",
-    "save": "Save Twitter video",
-    "iphone": "iPhone guide",
-    "android": "Android guide",
-    "mp4": "Twitter to MP4",
-    "alternatives": "Alternatives",
-    "blog": "Blog"
+    "save": "Twitter動画保存",
+    "iphone": "iPhone保存ガイド",
+    "android": "Android保存ガイド",
+    "mp4": "Twitter動画MP4変換",
+    "alternatives": "代替ツール",
+    "blog": "ブログ"
   },
   "hero": {
     "bullets": {
@@ -91,8 +91,8 @@
         "body": "TwitterはGIFをMP4で配信しているので、そのまま保存。軽くて滑らかです。"
       },
       "mp4": {
-        "title": "Convert to MP4",
-        "body": "Twitter to MP4 — clean file, ready for editors and players."
+        "title": "MP4に変換",
+        "body": "Twitter動画をMP4で保存。編集ソフトやプレイヤーですぐ使えます。"
       }
     }
   },
@@ -100,11 +100,11 @@
     "eyebrow": "よくある質問"
   },
   "home": {
-    "title": "X動画ダウンローダー — Twitter動画ダウンロード 無料オンライン",
-    "description": "Twitter(X)の動画、GIF、画像、MP3をオンラインでダウンロード。無料、登録不要、アプリ不要。HD画質。iPhone、Android、Windows、Macに対応。",
-    "eyebrow": "X動画ダウンローダー",
-    "h1": "Twitter(X)の動画・GIF・画像をオンラインでダウンロード",
-    "subtitle": "ツイートのリンクを貼って、形式を選ぶだけ。数秒でダウンロード完了。インストールは不要です。",
+    "title": "Twitter動画保存 — X(Twitter)動画を無料で保存・ダウンロード | TwitDownloader",
+    "description": "Twitter(X)の動画を無料で保存。ログイン不要、アプリ不要。HD画質1080p対応。iPhone・Android・PCで簡単に保存できます。",
+    "eyebrow": "Twitter動画保存",
+    "h1": "Twitter(X)の動画・GIF・画像を無料で保存",
+    "subtitle": "ツイートのリンクを貼って、形式を選ぶだけ。数秒で保存完了。インストールは不要です。",
     "faq": {
       "heading": "よくある質問",
       "items": [
@@ -139,14 +139,26 @@
         {
           "q": "料金や会員登録は必要ですか?",
           "a": "不要です。アカウントもメールもカードもいりません。ダウンロードは無制限。広告のおかげで無料で提供できています。"
+        },
+        {
+          "q": "Twitter動画を保存するとバレますか?",
+          "a": "いいえ、バレません。動画の保存(ダウンロード)は相手に通知されません。ブックマークとは異なり、保存の記録はTwitter上に一切残りません。安心してご利用ください。"
+        },
+        {
+          "q": "Twitter動画が保存できない場合は?",
+          "a": "以下を確認してください: ①ツイートが非公開(鍵垢)ではないか ②ツイートが削除されていないか ③URLが正しくコピーされているか。それでも保存できない場合は、ブラウザのキャッシュをクリアしてからお試しください。"
+        },
+        {
+          "q": "鍵垢(非公開アカウント)の動画は保存できますか?",
+          "a": "いいえ、非公開アカウントの動画はTwitterのAPIで取得できないため、保存できません。公開アカウントの動画のみ対応しています。"
         }
       ]
     }
   },
   "mp3": {
-    "title": "Twitter to MP3 — Twitter動画をMP3に変換 オンライン無料",
-    "description": "無料のTwitter MP3変換ツール。動画付きツイートから音声を抜き出してMP3として保存。iPhone、Android、デスクトップで動作します。",
-    "eyebrow": "Twitter to MP3",
+    "title": "Twitter動画をMP3に変換・保存 — 音声だけ無料抽出 | TwitDownloader",
+    "description": "Twitter動画から音声だけをMP3で保存。ログイン不要、無料。",
+    "eyebrow": "Twitter MP3変換",
     "h1": "Twitter MP3変換ツール",
     "subtitle": "Twitter動画から音声だけを抜き出して、MP3で保存。クリーンでタグ付け可能、ポッドキャストアプリやプレイリストにそのまま使えます。",
     "introHeading": "音声だけが欲しいときに",
@@ -175,10 +187,10 @@
     }
   },
   "image": {
-    "title": "Twitter画像ダウンロード — Twitter写真をHDで保存",
-    "description": "無料のTwitter画像ダウンローダー。Xの写真を元の解像度のまま保存。ウォーターマークなし。1ツイートにつき最大4枚。",
-    "eyebrow": "Twitter画像ダウンローダー",
-    "h1": "Twitter(X)から画像をダウンロード",
+    "title": "Twitter画像保存 — 高画質で写真をダウンロード | TwitDownloader",
+    "description": "Twitterの画像・写真をオリジナル画質で無料保存。複数画像にも対応。",
+    "eyebrow": "Twitter画像保存",
+    "h1": "Twitter(X)の画像を高画質で保存",
     "subtitle": "ツイートの写真を元の解像度そのまま、ウォーターマークなしで取得。複数枚あればzipで一括ダウンロードできます。",
     "introHeading": "アップロードされたままの原寸サイズで",
     "introBody": "Twitterのアプリやサイトは画面に合わせて画像を再描画していて、実際に投稿されたものより小さいんです。このツールを使えば、元のファイルをそのまま取得できます。同じ寸法、同じ圧縮、投稿者がアップロードしたままのEXIF情報も。",
@@ -303,10 +315,10 @@
     }
   },
   "gif": {
-    "title": "Twitter GIFダウンロード — TwitterのGIFをMP4で保存",
-    "description": "無料のTwitter GIFダウンローダー。XのGIFをそのまま保存できます。TwitterはGIFをサイレントMP4で配信しているので、その形式で受け取れます。小さくて滑らかなファイルです。",
-    "eyebrow": "Twitter GIFダウンローダー",
-    "h1": "Twitter(X)からGIFをダウンロード",
+    "title": "TwitterのGIF保存 — GIF動画をダウンロード | TwitDownloader",
+    "description": "TwitterのGIFをMP4形式で保存。軽量でスムーズな再生。無料・登録不要。",
+    "eyebrow": "Twitter GIF保存",
+    "h1": "Twitter(X)からGIFを保存",
     "subtitle": "TwitterのGIFを保存。ご注意: Twitterは2014年からGIFをサイレントMP4として保管しています。受け取るのもそのMP4。サイズは小さく、再生は滑らか。",
     "introHeading": "Twitterの「GIF」について",
     "introBody": "Twitterで「GIFを追加」をタップすると、プラットフォーム側で裏側でサイレントMP4に変換されます。だからTwitterのGIFを保存するときに手に入るのはMP4です。動きは同じ、ファイルははるかに小さく、動画を再生できる環境ならどこでも動きます。",
@@ -335,9 +347,9 @@
   },
   "guides": {
     "iphone": {
-      "title": "How to Download Twitter Video on iPhone — Step by Step",
-      "description": "Step-by-step guide to download Twitter (X) video on iPhone. Save to Camera Roll, Files, or share to other apps. Works on iOS 15 and up. No app needed.",
-      "eyebrow": "iPhone guide",
+      "title": "iPhoneでTwitter動画を保存する方法 — カメラロールに保存 | TwitDownloader",
+      "description": "iPhoneでTwitter動画をカメラロールに保存する方法。アプリ不要、Safariだけで完了。",
+      "eyebrow": "iPhone保存ガイド",
       "h1": "How to download Twitter video on iPhone",
       "subtitle": "Save any tweet's video straight to your iPhone — no app, no shortcut, no jailbreak. Three taps and it's in your Files or Photos.",
       "intro": "Twitter doesn't let you save videos directly from its app on iPhone. The native <strong>Share</strong> menu has no <strong>Save Video</strong> option for someone else's tweet. The workaround is to copy the link, paste it into a downloader, and save the MP4 to Files or Photos. Below: the exact steps, plus how to bypass common iOS quirks.",
@@ -386,9 +398,9 @@
       }
     },
     "android": {
-      "title": "How to Download Twitter Video on Android — Step by Step",
-      "description": "Complete guide to download Twitter (X) video on Android. Save MP4 to Gallery or /Download folder. Works on every Android version, every phone, every browser.",
-      "eyebrow": "Android guide",
+      "title": "AndroidでTwitter動画を保存する方法 | TwitDownloader",
+      "description": "AndroidでTwitter動画を保存する手順を解説。Samsung・Pixel・Xiaomi対応。",
+      "eyebrow": "Android保存ガイド",
       "h1": "How to download Twitter video on Android",
       "subtitle": "Save any tweet to your Android phone — Samsung, Pixel, Xiaomi, OnePlus, anything. No APK install, no permissions.",
       "intro": "Android makes this easier than iPhone. Downloads from the browser drop straight into your <strong>/Download</strong> folder by default, and most gallery apps pick them up automatically. Here's the exact flow.",
@@ -437,9 +449,9 @@
       }
     },
     "save": {
-      "title": "Save Twitter Video — Free, Fast, No Sign-Up",
-      "description": "Save Twitter (X) video to your phone or computer. Free, no sign-up, no watermark. HD MP4 download. Works on every browser and every device.",
-      "eyebrow": "Save Twitter video",
+      "title": "Twitter動画の保存方法 — iPhone・Android・PC対応ガイド | TwitDownloader",
+      "description": "Twitter動画を保存する方法を端末別に解説。アプリ不要、3ステップで完了。",
+      "eyebrow": "Twitter動画保存",
       "h1": "Save Twitter video to your device",
       "subtitle": "The simplest way to save a Twitter video for offline viewing. Three steps, no sign-up, no app. Works on phone, tablet, and laptop.",
       "intro": "<strong>Saving Twitter video</strong> used to be a hassle — you'd need a third-party app, a shortcut, or a sketchy browser extension. Not anymore. Paste the tweet link, hit save, get the MP4. That's the entire process for every device that has a browser.",
@@ -485,28 +497,28 @@
     }
   },
   "related": {
-    "eyebrow": "Keep exploring",
-    "heading": "More ways to save from Twitter",
+    "eyebrow": "もっと見る",
+    "heading": "Twitterからの保存方法いろいろ",
     "items": {
       "home": {
-        "title": "Twitter video downloader",
-        "body": "Save any tweet's video as MP4. HD up to 1080p, audio bundled."
+        "title": "Twitter動画保存ツール",
+        "body": "ツイートの動画をMP4で保存。最大1080p HD、音声込み。"
       },
       "mp3": {
-        "title": "Twitter to MP3 converter",
-        "body": "Strip the audio from any Twitter video. Save as MP3."
+        "title": "Twitter動画をMP3に変換",
+        "body": "Twitter動画から音声だけを抽出してMP3で保存。"
       },
       "image": {
-        "title": "Twitter image downloader",
-        "body": "Grab any photo from a tweet in full original resolution."
+        "title": "Twitter画像保存",
+        "body": "ツイートの写真をオリジナル画質で保存。"
       },
       "gif": {
-        "title": "Twitter GIF downloader",
-        "body": "Save Twitter GIFs as MP4 — smaller, smoother, same loop."
+        "title": "TwitterのGIF保存",
+        "body": "TwitterのGIFをMP4で保存 — 軽量でスムーズ。"
       },
       "mp4": {
-        "title": "Twitter to MP4 converter",
-        "body": "Convert and download any Twitter video as a clean MP4 file."
+        "title": "Twitter動画をMP4で保存",
+        "body": "Twitter動画をクリーンなMP4ファイルで保存。"
       }
     }
   },
@@ -515,14 +527,14 @@
     "download": "Download"
   },
   "mp4": {
-    "title": "Twitter to MP4 — Convert & Download Twitter Video as MP4",
-    "description": "Convert Twitter video to MP4. Download any tweet as MP4 file — HD quality up to 1080p, no watermark, no app needed. Free online tool.",
+    "title": "Twitter動画保存 MP4 — 高画質で無料ダウンロード | TwitDownloader",
+    "description": "Twitter(X)の動画をMP4で保存。高画質そのまま、変換不要。iPhone・Android・PC対応。",
     "eyebrow": "Twitter to MP4",
-    "h1": "Twitter to MP4 converter",
-    "subtitle": "Convert any Twitter video into a proper MP4 file. HD up to 1080p. Plays in QuickTime, VLC, every browser, every editor. No watermark.",
-    "introHeading": "Why MP4?",
-    "introBody": "Twitter already stores videos as <strong>MP4 (H.264)</strong> under the hood — that's the universal format every device and editor understands. What you're really doing is pulling that original MP4 out of Twitter's player. We hand you the file directly. No re-encoding, no quality loss.",
-    "introBody2": "If you specifically want the audio track only, the <a href=\"/twitter-to-mp3\">Twitter to MP3 converter</a> strips it for you. For a tweet's GIF, hit the <a href=\"/twitter-gif-downloader\">GIF downloader</a> instead — though Twitter GIFs are also delivered as MP4. Confusing? Yes. We sort it out for you.",
+    "h1": "Twitter動画をMP4で保存",
+    "subtitle": "Twitterのどんな動画もそのままMP4ファイルとして保存。最大1080pのHD画質、QuickTime・VLC・あらゆるブラウザ・編集ソフトで再生可能。ウォーターマークなし。",
+    "introHeading": "なぜMP4なのか",
+    "introBody": "Twitterは内部で動画を<strong>MP4(H.264)</strong>として保管しています — すべての端末や編集ソフトが理解できる汎用フォーマットです。このページで行うのは、Twitterのプレイヤーから元のMP4を取り出すこと。ファイルを直接お渡しします。再エンコードなし、画質劣化なし。",
+    "introBody2": "音声だけが欲しい場合は、<a href=\"/twitter-to-mp3\">Twitter to MP3変換</a>で抽出できます。ツイートのGIFが必要なら、<a href=\"/twitter-gif-downloader\">GIFダウンローダー</a>へ。ただしTwitterのGIFもMP4として配信されます。ややこしいですよね。私たちが整理してお届けします。",
     "faq": {
       "heading": "MP4 download FAQ",
       "items": [
@@ -550,23 +562,23 @@
     }
   },
   "howToGuides": {
-    "eyebrow": "Step-by-step guides",
-    "heading": "Walkthroughs for every device",
+    "eyebrow": "端末別ガイド",
+    "heading": "すべてのデバイスに対応した保存方法",
     "items": {
       "save": {
-        "tag": "Universal",
-        "title": "Save Twitter video to your device",
-        "body": "The fastest way to grab a tweet for offline viewing. Works on phone, tablet, and laptop in three taps."
+        "tag": "共通",
+        "title": "Twitter動画を端末に保存",
+        "body": "ツイートをオフラインで見る最速の方法。スマホ・タブレット・PCで3タップで完了。"
       },
       "iphone": {
         "tag": "iOS",
-        "title": "Download Twitter video on iPhone",
-        "body": "Save to Camera Roll or Files. No app, no shortcut, no jailbreak — pure Safari flow."
+        "title": "iPhoneでTwitter動画を保存",
+        "body": "カメラロールまたはFilesに保存。アプリ不要、ショートカット不要 — Safariだけで完了。"
       },
       "android": {
         "tag": "Android",
-        "title": "Download Twitter video on Android",
-        "body": "Samsung, Pixel, Xiaomi, OnePlus — every Android phone in one walkthrough. Files land in /Download."
+        "title": "AndroidでTwitter動画を保存",
+        "body": "Samsung、Pixel、Xiaomi、OnePlus — すべてのAndroid端末に対応。ファイルは/Downloadに保存されます。"
       }
     }
   },
@@ -771,32 +783,32 @@
     }
   },
   "testimonials": {
-    "eyebrow": "What people say",
-    "heading": "Used by editors, archivists, and the merely curious",
+    "eyebrow": "ユーザーの声",
+    "heading": "多くのユーザーにご利用いただいています",
     "items": {
       "a": {
-        "quote": "Copy, paste, done. No app cluttering my phone.",
-        "name": "Jake Morrison",
-        "role": "Freelance Editor",
-        "initial": "JM"
+        "quote": "コピーして貼り付けるだけ。余計なアプリも不要で助かります。",
+        "name": "田中 雄一",
+        "role": "フリーランス編集者",
+        "initial": "田"
       },
       "b": {
-        "quote": "I archive press clips daily. This is the fastest tool I've found.",
-        "name": "Sarah Chen",
-        "role": "Media Analyst",
-        "initial": "SC"
+        "quote": "毎日プレスクリップを保存しています。一番速いツールですね。",
+        "name": "鈴木 美咲",
+        "role": "メディアアナリスト",
+        "initial": "鈴"
       },
       "c": {
-        "quote": "Works on my Galaxy, my iPad, my work laptop. Same flow everywhere.",
-        "name": "Luis Herrera",
-        "role": "Content Creator",
-        "initial": "LH"
+        "quote": "Galaxy、iPad、仕事用のPCでも同じ使い方。どこでも使えます。",
+        "name": "佐藤 健太",
+        "role": "コンテンツクリエイター",
+        "initial": "佐"
       },
       "d": {
-        "quote": "No login, no email, no nonsense. Exactly what a downloader should be.",
-        "name": "Ava Kim",
-        "role": "Social Media Manager",
-        "initial": "AK"
+        "quote": "ログインもメールも必要なし。ダウンローダーはこうあるべき。",
+        "name": "山田 あかり",
+        "role": "SNSマネージャー",
+        "initial": "山"
       }
     }
   }
