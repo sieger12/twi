@@ -21,7 +21,9 @@ class AppDocument extends Document<AppDocumentProps> {
   render() {
     const { locale } = this.props;
     const dir = isRtl(locale) ? "rtl" : "ltr";
-    const gscVerification = process.env.NEXT_PUBLIC_GSC_VERIFICATION;
+    const gscVerification =
+      process.env.NEXT_PUBLIC_GSC_VERIFICATION ??
+      "4xIA8nYU8aPUAS69i4FMC9X-ZJv853gZEofg6ktWac8";
     const bingVerification = process.env.NEXT_PUBLIC_BING_VERIFICATION;
     const adsenseClient = process.env.NEXT_PUBLIC_ADSENSE_CLIENT_ID;
     return (
