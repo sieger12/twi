@@ -698,7 +698,7 @@
       "h1": "Contact",
       "lead": "If something's broken, or you spotted a tweet we shouldn't be saving, or you just want to say hi — write to us.",
       "emailLabel": "Email",
-      "email": "hello@twi-delta.vercel.app",
+      "email": "hello@twitdownloader.app",
       "copyrightHeading": "Copyright takedown",
       "copyrightBody": "If a download infringes your rights, email us with the tweet URL and proof of ownership. We'll remove the cached file within 24 hours — usually faster."
     },

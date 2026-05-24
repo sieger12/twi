@@ -32,7 +32,7 @@ async function generateIcons() {
 async function generateOgFallback() {
   const out = path.join(PUBLIC, "og-default.png");
   const host = (
-    process.env.NEXT_PUBLIC_SITE_URL || "https://twi-delta.vercel.app"
+    process.env.NEXT_PUBLIC_SITE_URL || "https://twitdownloader.app"
   )
     .replace(/^https?:\/\//, "")
     .replace(/\/$/, "");

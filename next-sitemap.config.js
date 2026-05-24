@@ -3,7 +3,7 @@ const { i18n } = require("./next-i18next.config");
 const SITE_URL = (
   process.env.NEXT_PUBLIC_SITE_URL ||
   process.env.SITE_URL ||
-  "https://twi-delta.vercel.app"
+  "https://twitdownloader.app"
 ).replace(/\/$/, "");
 
 /** @type {import('next-sitemap').IConfig} */

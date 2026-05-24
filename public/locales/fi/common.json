@@ -235,7 +235,7 @@
       "h1": "Yhteystiedot",
       "lead": "Jos jokin on rikki, tai huomasit tweetin jota emme saisi tallentaa, tai haluat vain sanoa moi — kirjoita meille.",
       "emailLabel": "Sähköposti",
-      "email": "hello@twi-delta.vercel.app",
+      "email": "hello@twitdownloader.app",
       "copyrightHeading": "Tekijänoikeuden poistopyyntö",
       "copyrightBody": "Jos lataus loukkaa oikeuksiasi, lähetä meille sähköpostia tweetin URL:lla ja todiste omistajuudesta. Poistamme välimuistissa olevan tiedoston 24 tunnissa — yleensä nopeammin."
     },

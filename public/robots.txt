@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://twi-delta.vercel.app
+Host: https://twitdownloader.app
 
 # Sitemaps
-Sitemap: https://twi-delta.vercel.app/sitemap.xml
+Sitemap: https://twitdownloader.app/sitemap.xml

@@ -1,0 +1,13 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "redirects": [
+    {
+      "source": "/:path*",
+      "has": [
+        { "type": "host", "value": "twi-delta.vercel.app" }
+      ],
+      "destination": "https://twitdownloader.app/:path*",
+      "permanent": true
+    }
+  ]
+}

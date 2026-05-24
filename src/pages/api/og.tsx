@@ -7,7 +7,7 @@ export const config = {
 
 const SITE_NAME = "TwitDownloader";
 const SITE_HOST = (
-  process.env.NEXT_PUBLIC_SITE_URL ?? "https://twi-delta.vercel.app"
+  process.env.NEXT_PUBLIC_SITE_URL ?? "https://twitdownloader.app"
 )
   .replace(/^https?:\/\//, "")
   .replace(/\/$/, "");

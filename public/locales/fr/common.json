@@ -232,7 +232,7 @@
       "h1": "Contact",
       "lead": "Si quelque chose est cassé, si tu repères un tweet qu'on ne devrait pas sauvegarder, ou si tu veux juste dire bonjour — écris-nous.",
       "emailLabel": "E-mail",
-      "email": "hello@twi-delta.vercel.app",
+      "email": "hello@twitdownloader.app",
       "copyrightHeading": "Retrait pour droits d'auteur",
       "copyrightBody": "Si un téléchargement viole tes droits, envoie-nous un e-mail avec l'URL du tweet et une preuve de propriété. On retire le fichier en cache sous 24 heures — souvent plus vite."
     },

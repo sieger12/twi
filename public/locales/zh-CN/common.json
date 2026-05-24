@@ -235,7 +235,7 @@
       "h1": "联系我们",
       "lead": "如果出了 bug，或者发现某条推文我们不该保存，又或者只是想打个招呼 — 给我们写信吧。",
       "emailLabel": "邮箱",
-      "email": "hello@twi-delta.vercel.app",
+      "email": "hello@twitdownloader.app",
       "copyrightHeading": "版权下架",
       "copyrightBody": "如果某次下载侵犯了你的权利，请发邮件给我们，附上推文 URL 和权属证明。我们会在 24 小时内删除缓存文件 — 通常更快。"
     },

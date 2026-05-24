@@ -235,7 +235,7 @@
       "h1": "Contact",
       "lead": "Dacă ceva e stricat, dacă ai observat un tweet pe care n-ar trebui să-l salvăm, sau vrei doar să zici salut — scrie-ne.",
       "emailLabel": "Email",
-      "email": "hello@twi-delta.vercel.app",
+      "email": "hello@twitdownloader.app",
       "copyrightHeading": "Notificare drepturi de autor",
       "copyrightBody": "Dacă o descărcare îți încalcă drepturile, trimite-ne un email cu URL-ul tweet-ului și dovada proprietății. Ștergem fișierul din cache în 24 de ore — de obicei mai repede."
     },
